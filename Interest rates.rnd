@@ -29,13 +29,11 @@ is not returned to you).
 (ii) What is the profit?
 (iii) What is the rate of return over the 2 years?
 (iv) What is the annualised rate of return?
+(b) Suppose the prevailing interest rate was 7%. Would you consider this a good investment:
+(i) If there is no tax?
+(ii) If the payment is taxed at 5%?
 
-
-
-
-
-
-
+Answers:
 
 (ai) Return = P_final=£1200
 (aii) Profit = P_final - P = £1200 - £1000 = £200
@@ -61,6 +59,22 @@ $$
 $$
 1{,}000 = \frac{1{,}200 \times 0.95}{(1+r)^2} \implies r = \sqrt{1.14} - 1 = 6.77\%.
 $$
+
+bi) If there is no tax, IRR = 9.54% > 7% = nominal rate so the investment is good as it exceeds the opportunity
+cost of holding cash in the bank and earning interest on the balance.
+
+bii) $$ pounds 1{,}000 times (1.07)^2 = pounds 1{,}144.90 
+So, repeating the same steps as above we get IRR = 6.77% < 7% = nominal rate so the investment would not considered
+to be a good one.
+
+
+
+
+(2) Consider a deposit of $1 that accrues a nominal interest rate of 100% compounded n  times a year. Calculate how
+much money you will have in the bank in one year as n tends to infinity.
+
+Answer: limit as n tends to infintiy of (1 + frac{1}{n})^n = e = $2.72 (correct to 2 decimal places)
+
 
 ## Spreadsheet
 
