@@ -4,19 +4,24 @@
 
 ## Summary
 
-In your own words, the main ideas of the lesson. Short sentences are fine.
+By discounting a future cash flow into the present we can see what they would be worth in today’s money.
+Net present value (NPV) is used when we have multiple streams of cash flow in the future, and we want to
+know what it is worth today. Both concepts relate to the time value of money which is the idea that money
+today is more valuable than money in the future because we can invest money today and earn a return that 
+increases in value over time. To find the PV or NPV we need the discount factor which represents the PV of
+1 unit of cash in T years’ time.
+- If interest is compounded n times a year, D(T) = $\frac{1}{1 + \frac{r}{n})^(Tn)
+- If interest is continuously compounded, D(T) = e^(-rT)
 
-Maths is written between dollar signs. For example `$A = P(1+i)^n$` shows
-as $A = P(1+i)^n$, and a displayed formula uses double dollars:
-
-$$
-\left(1+\frac{i^{(m)}}{m}\right)^m = 1+i
-$$
+The internal rate of return (IRR) is the rate of return at which the NPV of all cash flows from an investment equals 0. 
+Suppose we invest an amount P in a project which generates a cash flow stream m = (m1, m2, …, mn) with payments at time
+t1, t2, …, tn. The IRR is the number r \in (-1, infinity) such that f(r) = 0 where f(r) = -P + \sum_{i=1}^a_i\,(1 + r)^-t_i    
+Hence, IRR is a useful metric used to evaluate whether an investment will meet their required hurdle rate.
 
 ## My example
 
-A situation you made up (your own numbers, not the ones in the lecture
-notes), worked step by step.
+Suppose a company invests £5mn in a rare earth mine which will generate £1mn at the end of the 1st year,
+£2mn at the end of the 2nd year and £3mn at the end of the 3rd year. Find the IRR of this investment.
 
 ## Solved exercises
 
