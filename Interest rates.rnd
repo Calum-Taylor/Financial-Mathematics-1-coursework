@@ -1,0 +1,65 @@
+# 1. Interest rates
+
+[Back to contents](../README.md)
+
+## Summary
+
+In your own words, the main ideas of the lesson. Short sentences are fine.
+
+Maths is written between dollar signs. For example `$A = P(1+i)^n$` shows
+as $A = P(1+i)^n$, and a displayed formula uses double dollars:
+
+$$
+\left(1+\frac{i^{(m)}}{m}\right)^m = 1+i
+$$
+
+## My example
+
+A situation you made up (your own numbers, not the ones in the lecture
+notes), worked step by step.
+
+## Solved exercises
+
+### Exercise 1.x (from Exercise Sheet 1)
+
+Consider an asset that, for an initial investment of £1,000, gives you a payment of £1,200 in two years’ time (the initial investment £1,000
+is not returned to you). 
+(a) In relation to this investment:
+(i) What is the return?
+(ii)
+
+
+
+
+
+
+
+(ai) Return = P_final=£1200
+(aii) Profit = P_final - P = £1200 - £1000 = £200
+(aiii) Rate of return, R = $$
+R = \frac{\pounds 1{,}200 - \pounds 1{,}000}{\pounds 1{,}000} = 20.0\%.
+$$
+**v) What is the annualised rate of return?**
+
+The annualised rate of return is:
+
+$$
+r = \frac{R}{T} = \frac{0.2}{2} = 10.0\%.
+$$
+
+**v)Since there is only one payment, the IRR is the same as the equivalent effective interest rate. To check this via the definition, the IRR is the solution of:
+
+$$
+1{,}000 = \frac{1{,}200}{(1+r)^2} \implies r = \sqrt{1.2} - 1 = 9.54\%.
+$$
+
+**vi) If the payment is subject to a 5% tax, the IRR is the solution of:
+
+$$
+1{,}000 = \frac{1{,}200 \times 0.95}{(1+r)^2} \implies r = \sqrt{1.14} - 1 = 6.77\%.
+$$
+
+## Spreadsheet
+
+[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): what it
+does, which cells to change and what to
