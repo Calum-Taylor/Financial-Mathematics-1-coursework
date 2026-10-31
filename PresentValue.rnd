@@ -40,8 +40,8 @@ one in a month’s time. The interest rate is 6%, compounded monthly. Calculate 
 Answer: Let β = D(frac({1}{12}) = frac{1}({1 + (frac{0.06}{12})})^frac{1}{12}*12 = frac{1}{1.005}
 Let P = PV of instalments. Hence, we need
 Pβ + P(β^2) + ... + P(β^36) = 12,000
-P*frac{β - (β^37)}{1 - β} = 12,000 
-P = frac{12,000 * (1 - β)}{β - (β^37)}
+P*\frac{β - (β^37)}{1 - β} = 12,000 
+P = \frac{12,000 * (1 - β)}{β - (β^37)}
 Substituting the value for β we get   P = £365.06 (correct to 2 decimal places)
 
 
