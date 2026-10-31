@@ -4,19 +4,25 @@
 
 ## Summary
 
-In your own words, the main ideas of the lesson. Short sentences are fine.
-
-Maths is written between dollar signs. For example `$A = P(1+i)^n$` shows
-as $A = P(1+i)^n$, and a displayed formula uses double dollars:
-
-$$
-\left(1+\frac{i^{(m)}}{m}\right)^m = 1+i
-$$
+Interest rates help to explain how a principal amount £P, also referred to the amount we borrow, grows over time under a nominal
+interest rate r. However, interest rates can be quoted in a variety of different ways. 
+- For example, if interest was compounded n times a year, then in t years the principal would have grown to $P(1 + \frac{r}{n})^(nt)$ 
+- Also, interest can be continuously compounded where interest is being added and reinvested at every moment in time leading to exponential
+growth in the principal amount. In this case, after t years the principal would have grown to $P*(e^(rt))$
+Hence, to compare the effect of different compounding frequencies we need to use effective annual interest rates. 
+- When interest is compounded n times a year then reff = $(1 + \frac{r}{n})^n -1 $
+- When interest is continuously compounded, reff = $(e^r)-1 $
 
 ## My example
 
-A situation you made up (your own numbers, not the ones in the lecture
-notes), worked step by step.
+Suppose I take out a £30,000 loan at the 10-year gilt yield of ..% to cover tuition fees for the duration of my BSc where each year study
+costs £10,000 and I am required to pay fees for every year upfront at the start of the 1st year.  How much will the loan be worth in 10 years
+if interest is: 
+(a) Compounded annually     
+(b) Compounded quarterly
+(c) Compounded continuously
+Calculate the effective rates in each of the scenarios to confirm which gives the lowest effective rate.
+
 
 ## Solved exercises
 
