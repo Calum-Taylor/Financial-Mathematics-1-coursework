@@ -1,0 +1,85 @@
+# 3. Immunisation of assets and liabilities
+
+[Back to contents](../README.md)
+
+## Summary
+
+In your own words, the main ideas of the lesson. Short sentences are fine.
+
+Maths is written between dollar signs. For example `$A = P(1+i)^n$` shows
+as $A = P(1+i)^n$, and a displayed formula uses double dollars:
+
+$$
+\left(1+\frac{i^{(m)}}{m}\right)^m = 1+i
+$$
+
+## My example
+
+A situation you made up (your own numbers, not the ones in the lecture
+notes), worked step by step.
+
+## Solved exercises
+
+### Exercise 1.x (from Exercise Sheet 1)
+
+(1) Suppose the nominal interest rate is 4% and is continuously compounded. Compute the:
+- present value,
+- duration,
+- effective duration, and
+- convexity
+of the following cash-flow streams:
+(a) An investment that pays you pounds 1{,)000 at the end of year 2 and pounds 500 at the end of year 3.
+(b) A liability that requires you to pay pounds 1{,}500 at the end of years 3 and 4.
+
+Answers:
+(a) $$ 
+PV = 1{,}000*(e^(-0.04*2)) + 500*(e^-0.04*3) = pounds 1{,}370
+$$
+
+It can be shown that the duration and effective duration of interest continuously compounded are equal to 
+each other, though we will not prove this here. Hence,
+$$
+$\tau$ = $\nu$ = \frac{2 * 1{,}000 * (e^(-0.04)*2) + 3 * 500 * (e^(-0.04)*3)}{PV} = 2.32 years
+$$
+
+Convexity c = $$ frac{(2^2) * 1{,}000 * (e^(-0.04)*2) + (3^2) * 500 * (e^(-0.04)*3)}{PV} = 5.62 $$
+
+
+(b) $$
+PV = 1{,}500*(e^(-0.04*3)) + 1{,}500*(e^-0.04*4) = pounds 2{,}610
+$$
+
+The duration and convexity are both equal to:
+$$
+$\tau$ = $\nu$ = \frac{3 * 1{,}500 * (e^(-0.04)*3) + 4 * 1{,}500 * (e^(-0.04)*4)}{PV} = 3.49 years
+$$
+
+Convesixity c = $$ frac{(3^2) * 1{,}500 * (e^(-0.04)*3) + (4^2) * 1{,}500 * (e^(-0.04)*4)}{PV} = 5.62 $$
+
+
+
+(2) An investor has one liability of \text{£20,000} to be paid in 3.5 years and another of \text{£18,000}
+ to be paid in 6 years. The interest rate is 10% compounded annually. Show that we cannot achieve Redington
+immunisation of these liabilities with 4 year and 7 year zero coupon bonds by trying to construct a portfolio
+of these bonds that does Redington immunise them.
+
+Answer: $$
+NPV(r) = - \frac{20{,}000}{(1.1)^3.5} + \frac{P}{(1.1)^4} - \frac{18{,}000}{(1.1)^6} + \frac{Q}{(1.1)^7}
+$$
+$$
+NPV'(r) = \frac{70{,}000}{(1.1)^4.5} - \frac{4P}{(1.1)^5} + \frac{6*18{,}000}{(1.1)^7} - \frac{7Q}{(1.1)^8}
+$$
+Setting NPV(10%) = 0 and NPV'(10%) = 0 we get a pair of simultaneous equations which we can solve to get
+P = 29, 400 and Q = 8, 550
+$$
+NPV''(r) = - \frac{4.5 * 70{,}000}{(1.1)^5.5} + \frac{20P}{(1.1)^6} - \frac{42 * 18{,}000}{(1.1)^8} + \frac{56Q}{(1.1)^9}
+$$
+Subsitutitng the values for P and Q qe get NPV''(10%) = -4198.923397 < 0 
+Hence, Reddington immunisation cannot be achieved using a compbination of 4 year and 7 year zero coupon bonds.
+
+
+
+## Spreadsheet
+
+[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): what it
+does, which cells to change and what to
