@@ -24,24 +24,38 @@ notes), worked step by step.
 gives payments of £500 at the end of the second year and £750 at the end of the fourth year.
 
 Answer: the IRR is the unique solution r which exists between -1 and infintiy such that
-1,000 = $\frac{500}{(1+r)^2}$ + $\frac{750}{(1+r)^4}$
+$$
+1{,}000 = $\frac{500}{(1+r)^2}$ + $\frac{750}{(1+r)^4}$
+$$
 Let y = (1+r)^2 then 
-1,000 = $\frac{500}{(y)^1}$ + $\frac{750}{(y)^2}$
+$$
+1{,}000 = $\frac{500}{(y)^1}$ + $\frac{750}{(y)^2}$
+$$
+$$
 y^2 - 0.5y -0.75 = 0
+$$
 Applying the quadratic formula gives y = -0.651388 or y = 1.15139
 r = sqrt(y)-1 and since taking the square root of a negative number produces a complex number,
 the only valid solution is y = 1.15139. Thus,
+$$
 r = sqrt(1.15139) -1 = 7.30%
+$$
 
 
 (2) You buy a car with a loan of £12,000, to be repaid in 36 equal monthly instalments, the first
 one in a month’s time. The interest rate is 6%, compounded monthly. Calculate the monthly instalment.
 
-Answer: Let β = D(frac({1}{12}) = frac{1}({1 + (frac{0.06}{12})})^frac{1}{12}*12 = frac{1}{1.005}
+Answer: Let $$ β = D(frac({1}{12}) = frac{1}({1 + (frac{0.06}{12})})^frac{1}{12}*12 = frac{1}{1.005} $$
 Let P = PV of instalments. Hence, we need
-Pβ + P(β^2) + ... + P(β^36) = 12,000
-P*\frac{β - (β^37)}{1 - β} = 12,000 
-P = \frac{12,000 * (1 - β)}{β - (β^37)}
+$$
+Pβ + P(β^2) + ... + P(β^36) = 12{,]000
+$$
+$$
+P*\frac{β - (β^37)}{1 - β} = 12{,}000
+$$
+$$
+P = \frac{12{,}000 * (1 - β)}{β - (β^37)}
+$$
 Substituting the value for β we get   P = £365.06 (correct to 2 decimal places)
 
 
