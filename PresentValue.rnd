@@ -14,14 +14,23 @@ increases in value over time. To find the PV or NPV we need the discount factor 
 - If interest is continuously compounded, D(T) = e^(-rT)
 
 The internal rate of return (IRR) is the rate of return at which the NPV of all cash flows from an investment equals 0. 
-Suppose we invest an amount P in a project which generates a cash flow stream m = (m1, m2, …, mn) with payments at time
-t1, t2, …, tn. The IRR is the number r \in (-1, infinity) such that f(r) = 0 where f(r) = -P + \sum_{i=1}^a_i\,(1 + r)^-t_i    
+Suppose we invest an amount P in a project which generates a cash flow stream m = (m_1, m_2, …, m_n) with payments at time
+t_1, t_2, …, t_n. The IRR is the number r \in (-1, $\infty$) such that f(r) = 0 where f(r) = -P + \sum_{i=1}^a_i\,(1 + r)^(-t_i)    
 Hence, IRR is a useful metric used to evaluate whether an investment will meet their required hurdle rate.
 
 ## My example
 
 Suppose a company invests £5mn in a rare earth mine which will generate £1mn at the end of the 1st year,
 £2mn at the end of the 2nd year and £3mn at the end of the 3rd year. Find the IRR of this investment.
+
+Answer: $$
+NPV(r) = - \frac{5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} + \frac{3}{(1 + r)^3}
+$$
+IRR is the value r \in (-1, $\infty$) which makes NPV(r) = 0. Let x = 1 + r 
+$$
+5(x^3) - x^2 - 2x -3 = 0
+$$
+Solving this gives x = 1.08208... as the only real solution. Hence, 1.08208... = 1 + r so r = 0.08208... = 8.208...%
 
 ## Solved exercises
 
