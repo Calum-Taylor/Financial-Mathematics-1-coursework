@@ -34,7 +34,8 @@ Solving this gives x = 1.08208... as the only real solution. Hence, 1.08208... =
 
 ## Solved exercises
 
-(1)Calculate the internal rate of return of an investment that, for an initial £1,000,
+### Exercise 2.1 (from Exercise Sheet 2)
+Calculate the internal rate of return of an investment that, for an initial £1,000,
 gives payments of £500 at the end of the second year and £750 at the end of the fourth year.
 
 Answer: the IRR is the unique solution r which exists between -1 and infintiy such that
@@ -55,8 +56,8 @@ $$
 r = sqrt(1.15139) -1 = 7.30%
 $$
 
-
-(2) You buy a car with a loan of £12,000, to be repaid in 36 equal monthly instalments, the first
+### Excercise 2.3 (from Exercise Sheet 2)
+You buy a car with a loan of £12,000, to be repaid in 36 equal monthly instalments, the first
 one in a month’s time. The interest rate is 6%, compounded monthly. Calculate the monthly instalment.
 
 Answer: Let $$ β = D(frac({1}{12}) = frac{1}({1 + (frac{0.06}{12})})^frac{1}{12}*12 = frac{1}{1.005} $$
