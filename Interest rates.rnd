@@ -25,13 +25,13 @@ Calculate the effective rates in each of the scenarios to confirm which gives th
 
 Answers:
 (a) $$
-30{,}000*((1 + 0.053)^10) = \pounds50{,}281.12
+30{,}000*((1 + 0.053)^10) = £50{,}281.12
 $$
 (b) $$
-30{,}000*((1 + \frac{0.053}{4}))^(4*10) = \pounds50{,}790.88
+30{,}000*((1 + \frac{0.053}{4}))^(4*10) = £50{,}790.88
 $$
 (c) $$
-30{,}000*(e^(0.053*10)) = \pounds50{,}967.97
+30{,}000*(e^(0.053*10)) = £50{,}967.97
 $$
 Interest continuously compounded yields the highest accumulated balance and effective annual rate because interest is being applied at every single
 moment in time. This is in contrast to interest being applied annually at the end of every year.
@@ -39,60 +39,55 @@ moment in time. This is in contrast to interest being applied annually at the en
 
 ## Solved exercises
 
-### Exercise 1.x (from Exercise Sheet 1)
+### Exercise 1.5 (from Exercise Sheet 1)
 
 Consider an asset that, for an initial investment of £1,000, gives you a payment of £1,200 in two years’ time (the initial investment £1,000
 is not returned to you). 
 (a) In relation to this investment:
-(i) What is the return?
-(ii) What is the profit?
-(iii) What is the rate of return over the 2 years?
-(iv) What is the annualised rate of return?
+- (i) What is the return?
+- (ii) What is the profit?
+- (iii) What is the rate of return over the 2 years?
+- (iv) What is the annualised rate of return?
+- (v) What is the IRR?
 (b) Suppose the prevailing interest rate was 7%. Would you consider this a good investment:
-(i) If there is no tax?
-(ii) If the payment is taxed at 5%?
+- (i) If there is no tax?
+- (ii) If the payment is taxed at 5%?
 
 Answers:
 
 (ai) Return = P_final=£1200
 (aii) Profit = P_final - P = £1200 - £1000 = £200
 (aiii) Rate of return, R = $$
-R = \frac{\pounds 1{,}200 - \pounds 1{,}000}{\pounds 1{,}000} = 20.0\%.
+R = \frac{£1{,}200 - £1{,}000}{£1{,}000} = 20.0\%.
 $$
-**v) What is the annualised rate of return?**
-
-The annualised rate of return is:
-
+(aiv) The annualised rate of return is:
 $$
 r = \frac{R}{T} = \frac{0.2}{2} = 10.0\%.
 $$
 
 **v)Since there is only one payment, the IRR is the same as the equivalent effective interest rate. To check this via the definition, the IRR is the solution of:
-
 $$
 1{,}000 = \frac{1{,}200}{(1+r)^2} \implies r = \sqrt{1.2} - 1 = 9.54\%.
-$$
-
-**vi) If the payment is subject to a 5% tax, the IRR is the solution of:
-
-$$
-1{,}000 = \frac{1{,}200 \times 0.95}{(1+r)^2} \implies r = \sqrt{1.14} - 1 = 6.77\%.
 $$
 
 bi) If there is no tax, IRR = 9.54% > 7% = nominal rate so the investment is good as it exceeds the opportunity
 cost of holding cash in the bank and earning interest on the balance.
 
-bii) $$ pounds 1{,}000 times (1.07)^2 = pounds 1{,}144.90 
-So, repeating the same steps as above we get IRR = 6.77% < 7% = nominal rate so the investment would not considered
-to be a good one.
+bii) If the payment is subject to a 5% tax, the IRR is the solution of:
+$$
+1{,}000 = \frac{1{,}200*0.95}{(1+r)^2} 
+$$ 
+This implies $$
+r = \sqrt{1.14} - 1 = 6.77\%.
+$$
+IRR = 6.77% < 7% = nominal rate so the investment would not considered to be a good one.
 
 
+### Excercise 1.8 (from Exercise Sheet 1)
+Consider a deposit of $1 that accrues a nominal interest rate of 100% compounded n  times a year. Calculate how
+much money you will have in the bank in one year as n tends to $\infty$.
 
-
-(2) Consider a deposit of $1 that accrues a nominal interest rate of 100% compounded n  times a year. Calculate how
-much money you will have in the bank in one year as n tends to infinity.
-
-Answer: limit as n tends to infintiy of (1 + frac{1}{n})^n = e = $2.72 (correct to 2 decimal places)
+Answer: limit as n tends to $\infty$ of (1 + frac{1}{n})^n = e = $2.72 (correct to 2 decimal places)
 
 
 ## Spreadsheet
