@@ -24,11 +24,22 @@ Suppose a company invests £5mn in a rare earth mine which will generate £1mn, 
 4th years, respectively. Also, there are additional liabilities of £3mn and £0.5mn at the ends of the 2nd and 4th years, respectively.
 Determine whether Reddington immunisation can be achieved.
 
+Answer: $$
+NPV(r) = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} - \frac{3]{(1 + r)^2)} + \frac{3}{(1 + r)^3} + \frac{4}{(1 + r)^4}
+- \frac{0.5}{(1 + r)^4} = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} - \frac{1}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{3.5}{(1 + r)^4}
+$$
+$$
+NPV'(r) = - \frac{1}{(1 + r)^2} + \frac{2}{(1 + r)^3} - \frac{9}{(1 + r)^4} - \frac{14}{(1 + r)^4}
+$$
+Using software, such as Excel (see my Excel document attached), you will see that There is no interest rate, r, such that both NPV(r) = 0 and
+NPV'(r )= 0 meaning 1st order immunisation can' t be achieved. This implies that Reddington immunisation can't be achieved either because 1st
+order immunisation is a necessary condition for Reddington immunisation.
+
+
 ## Solved exercises
 
-### Exercise 1.x (from Exercise Sheet 1)
-
-(1) Suppose the nominal interest rate is 4% and is continuously compounded. Compute the:
+### Exercise 3.2 (from Exercise Sheet 3)
+Suppose the nominal interest rate is 4% and is continuously compounded. Compute the:
 - present value,
 - duration,
 - effective duration, and
@@ -63,9 +74,9 @@ $$
 Convesixity c = $$ frac{(3^2) * 1{,}500 * (e^(-0.04)*3) + (4^2) * 1{,}500 * (e^(-0.04)*4)}{PV} = 5.62 $$
 
 
-
-(2) An investor has one liability of \text{£20,000} to be paid in 3.5 years and another of \text{£18,000}
- to be paid in 6 years. The interest rate is 10% compounded annually. Show that we cannot achieve Redington
+### Exercise 3.6 (from Exercise Sheet 3)
+An investor has one liability of £20,000 to be paid in 3.5 years and another of £18,000
+to be paid in 6 years. The interest rate is 10% compounded annually. Show that we cannot achieve Redington
 immunisation of these liabilities with 4 year and 7 year zero coupon bonds by trying to construct a portfolio
 of these bonds that does Redington immunise them.
 
