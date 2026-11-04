@@ -73,19 +73,19 @@ is not returned to you).
 (aiii) Rate of return, R = 
 
 $$
-R = \frac{1{,}200 - 1{,}000}{1{,}000} = 20.0\%$
+R = \frac{1{,}200 - 1{,}000}{1{,}000} = 20\%$
 $$
 
 (aiv) The annualised rate of return is:
 
 $$
-r = \frac{R}{T} = \frac{0.2}{2} = 10.0\%$
+r = \frac{R}{T} = \frac{0.2}{2} = 10\%$
 $$
 
 (v)Since there is only one payment, the IRR is the same as the equivalent effective interest rate. To check this via the definition, the IRR is the solution of:
 
 $$
-1{,}000 = \frac{1{,}200}{(1+r)^2} \implies r = \sqrt{1.2} - 1 = 9.54\%$
+1{,}000 = \frac{1{,}200}{(1+r)^2} \implies r = \sqrt{1.2} - 1 = 0.0954
 $$
 
 bi) If there is no tax, IRR = 9.54% > 7% = nominal rate so the investment is good as it exceeds the opportunity
@@ -100,7 +100,7 @@ $$
 This implies
 
 $$
-r = \sqrt{1.14} - 1 = 6.77\%$
+r = \sqrt{1.14} - 1 = 0.0677
 $$
 
 IRR = 6.77% < 7% = nominal rate so the investment would not considered to be a good one.
