@@ -49,44 +49,46 @@ Suppose the nominal interest rate is 4% and is continuously compounded. Compute 
 - duration,
 - effective duration, and
 - convexity
+
 of the following cash-flow streams:
-(a) An investment that pays you £1{,)000 at the end of year 2 and pounds 500 at the end of year 3.
-(b) A liability that requires you to pay £1{,}500 at the end of years 3 and 4.
+- (a) An investment that pays you £1{,)000 at the end of year 2 and pounds 500 at the end of year 3.
+- (b) A liability that requires you to pay £1{,}500 at the end of years 3 and 4.
 
 Answers:
 
 (a) 
 
 $$ 
-PV = 1{,}000*(e^{-0.04(2)} + 500*(e^{-0.04(3)} = £1{,}370
+PV = 1{,}000*e^{-0.04(2)} + 500*e^{-0.04(3)} = £1{,}370
 $$
 
 It can be shown that the duration and effective duration of interest continuously compounded are equal to 
 each other, though we will not prove this here. Hence,
 
 $$
-$\tau$ = $\nu$ = \frac{2 * 1{,}000 * (e^{0.04(2)} + 3 * 500 * (e^{-0.04(3)}{PV} = 2.32 years
+\tau = \nu = \frac{2 * 1{,}000 * e^{0.04(2)} + 3 * 500 * e^{-0.04(3)}{PV} = 2.32 years
 $$
 
+
 $$
-Convexity c = \frac{(2^2) * 1{,}000 * (e^{-0.04(2)} + (3^2) * 500 * (e^{-0.04(3)}}{PV} = 5.62
+Convexity c = \frac{(2^2) * 1{,}000 * e^{-0.04(2)} + (3^2) * 500 * e^{-0.04(3)}}{PV} = 5.62
 $$
 
 
 (b) 
 
 $$
-PV = 1{,}500*(e^{-0.04(3)} + 1{,}500*(e^{-0.04(4)} = £2{,}610
+PV = 1{,}500*e^{-0.04(3)} + 1{,}500*e^{-0.04(4)} = £2{,}610
 $$
 
 The duration and convexity are both equal to:
 
 $$
-$\tau$ = $\nu$ = \frac{3 * 1{,}500 * (e^{-0.04(3)} + 4 * 1{,}500 * (e^{-0.04(4)}}{PV} = 3.49 years
+$\tau$ = $\nu$ = \frac{3 * 1{,}500 * e^{-0.04(3)} + 4 * 1{,}500 * e^{-0.04(4)}}{PV} = 3.49 years
 $$
 
 $$
-Convesixity c = \frac{(3^2) * 1{,}500 * (e^{-0.04(3)} + (4^2) * 1{,}500 * (e^{-0.04(4)}}{PV} = 5.62
+Convesixity c = \frac{(3^2) * 1{,}500 * e^{-0.04(3)} + (4^2) * 1{,}500 * e^{-0.04(4)}}{PV} = 5.62
 $$
 
 
@@ -96,7 +98,7 @@ to be paid in 6 years. The interest rate is 10% compounded annually. Show that w
 immunisation of these liabilities with 4 year and 7 year zero coupon bonds by trying to construct a portfolio
 of these bonds that does Redington immunise them.
 
-Answer: 
+**Answer:** 
 
 $$
 NPV(r) = - \frac{20{,}000}{(1.1)^3.5} + \frac{P}{(1.1)^4} - \frac{18{,}000}{(1.1)^6} + \frac{Q}{(1.1)^7}
