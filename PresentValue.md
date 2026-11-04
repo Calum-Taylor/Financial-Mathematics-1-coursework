@@ -10,8 +10,8 @@ know what it is worth today. Both concepts relate to the time value of money whi
 today is more valuable than money in the future because we can invest money today and earn a return that 
 increases in value over time. To find the PV or NPV we need the discount factor which represents the PV of
 1 unit of cash in T years’ time.
-- If interest is compounded n times a year, D(T) = $\frac{1}{1 + \frac{r}{n})^(Tn)
-- If interest is continuously compounded, D(T) = e^(-rT)
+- If interest is compounded n times a year, D(T) = $\frac{1}{1 + \frac{r}{n})^{Tn}
+- If interest is continuously compounded, D(T) = e^{-rT}
 
 The internal rate of return (IRR) is the rate of return at which the NPV of all cash flows from an investment equals 0. 
 Suppose we invest an amount P in a project which generates a cash flow stream m = (m_1, m_2, …, m_n) with payments at time
@@ -23,13 +23,18 @@ Hence, IRR is a useful metric used to evaluate whether an investment will meet t
 Suppose a company invests £5mn in a rare earth mine which will generate £1mn at the end of the 1st year,
 £2mn at the end of the 2nd year and £3mn at the end of the 3rd year. Find the IRR of this investment.
 
-Answer: $$
+Answer: 
+
+$$
 NPV(r) = - \frac{5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} + \frac{3}{(1 + r)^3}
 $$
+
 IRR is the value r \in (-1, $\infty$) which makes NPV(r) = 0. Let x = 1 + r 
+
 $$
 5(x^3) - x^2 - 2x -3 = 0
 $$
+
 Solving this gives x = 1.08208... as the only real solution. Hence, 1.08208... = 1 + r so r = 0.08208... = 8.208...%
 
 ## Solved exercises
@@ -39,19 +44,26 @@ Calculate the internal rate of return of an investment that, for an initial £1,
 gives payments of £500 at the end of the second year and £750 at the end of the fourth year.
 
 Answer: the IRR is the unique solution r which exists between -1 and infintiy such that
+
 $$
 1{,}000 = $\frac{500}{(1+r)^2}$ + $\frac{750}{(1+r)^4}$
 $$
+
 Let y = (1+r)^2 then 
+
 $$
 1{,}000 = $\frac{500}{(y)^1}$ + $\frac{750}{(y)^2}$
 $$
+
+
 $$
 y^2 - 0.5y -0.75 = 0
 $$
+
 Applying the quadratic formula gives y = -0.651388 or y = 1.15139
 r = sqrt(y)-1 and since taking the square root of a negative number produces a complex number,
 the only valid solution is y = 1.15139. Thus,
+
 $$
 r = sqrt(1.15139) -1 = 7.30%
 $$
@@ -62,15 +74,21 @@ one in a month’s time. The interest rate is 6%, compounded monthly. Calculate 
 
 Answer: Let $$ β = D(frac({1}{12}) = frac{1}({1 + (frac{0.06}{12})})^frac{1}{12}*12 = frac{1}{1.005} $$
 Let P = PV of instalments. Hence, we need
+
 $$
 Pβ + P(β^2) + ... + P(β^36) = 12{,]000
 $$
+
+
 $$
 P*\frac{β - (β^37)}{1 - β} = 12{,}000
 $$
+
+
 $$
 P = \frac{12{,}000 * (1 - β)}{β - (β^37)}
 $$
+
 Substituting the value for β we get   P = £365.06 (correct to 2 decimal places)
 
 
