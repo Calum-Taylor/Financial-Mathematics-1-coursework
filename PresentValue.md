@@ -18,7 +18,7 @@ Suppose we invest an amount P in a project which generates a cash flow stream m 
 $t_1$, $t_2$, …, $t_n$. The IRR is the number r $\in$ (-1, $\infty$) such that f(r) = 0 where 
 
 $$
-f(r) = -P + \sum_{i=1}^a_i(1 + r)^(-t_i)    
+f(r) = -P + \sum_{i=1}^a_i(1 + r){-t_i}    
 $$
 
 Hence, IRR is a useful metric used to evaluate whether an investment will meet their required hurdle rate.
@@ -65,10 +65,10 @@ $$
 y^2 - 0.5y -0.75 = 0
 $$
 
-Applying the quadratic formula gives y = -0.651388 or y = 1.15139. r = \sqrt(y) - 1 and since taking the square root of a negative number produces a complex number,the only valid solution is y = 1.15139. Thus,
+Applying the quadratic formula gives y = -0.651388 or y = 1.15139. r = $\sqrt(y)$ - 1 and since taking the square root of a negative number produces a complex number,the only valid solution is y = 1.15139. Thus,
 
 $$
-r = sqrt(1.15139) -1 = 7.30%
+r = $\sqrt(1.15139)$ -1 = 7.30%
 $$
 
 ### Excercise 2.3 (from Exercise Sheet 2)
