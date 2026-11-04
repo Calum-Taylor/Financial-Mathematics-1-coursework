@@ -10,7 +10,7 @@ know what it is worth today. Both concepts relate to the time value of money whi
 today is more valuable than money in the future because we can invest money today and earn a return that 
 increases in value over time. To find the PV or NPV we need the discount factor which represents the PV of
 1 unit of cash in T years’ time.
-- If interest is compounded n times a year, D(T) = $\frac{1}{1 + \frac{r}{n}}^{Tn}$
+- If interest is compounded n times a year, D(T) = $\frac{1}{1 + \frac{r}{n}}^(Tn)$
 - If interest is continuously compounded, D(T) = $e^{-rT}$
 
 The **internal rate of return (IRR)** is the rate of return at which the NPV of all cash flows from an investment equals 0. 
@@ -65,10 +65,10 @@ $$
 y^2 - 0.5y -0.75 = 0
 $$
 
-Applying the quadratic formula gives y = -0.651388 or y = 1.15139. r = $\sqrt(y)$ - 1 and since taking the square root of a negative number produces a complex number,the only valid solution is y = 1.15139. Thus,
+Applying the quadratic formula gives y = -0.651388 or y = 1.15139. r = $\sqrt y$ - 1 and since taking the square root of a negative number produces a complex number,the only valid solution is y = 1.15139. Thus,
 
 $$
-r = $\sqrt(1.15139)$ -1 = 7.30%
+r = \sqrt 1.15139 -1 = 7.30%
 $$
 
 ### Excercise 2.3 (from Exercise Sheet 2)
@@ -78,13 +78,13 @@ one in a month’s time. The interest rate is 6%, compounded monthly. Calculate 
 Answer: Let 
 
 $$ 
-β = D(frac({1}{12}) = frac{1}({1 + (frac{0.06}{12})})^frac{1}{12}*12 = frac{1}{1.005} 
+β = D(\frac{1}{12}) = \frac{1}({1 + (\frac{0.06}{12})})^\frac{1}{12}*12 = \frac{1}{1.005} 
 $$
 
 Let P = PV of instalments. Hence, we need
 
 $$
-Pβ + P(β^2) + ... + P(β^36) = 12{,]000
+Pβ + P(β^2) + ... + P(β^36) = 12{,}000
 $$
 
 
