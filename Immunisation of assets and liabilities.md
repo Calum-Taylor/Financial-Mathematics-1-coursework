@@ -39,10 +39,7 @@ Determine whether Reddington immunisation can be achieved.
 Answer: 
 
 $$
-\begin{aligned}
-NPV(r) = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} - \frac{3}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{4}{(1 + r)^4}
-- \frac{0.5}{(1 + r)^4} = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} - \frac{1}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{3.5}{(1 + r)^4}
-- \end{aligned}
+NPV(r) = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} - \frac{3}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{4}{(1 + r)^4} - \frac{0.5}{(1 + r)^4} = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} - \frac{1}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{3.5}{(1 + r)^4}
 $$
 
 
