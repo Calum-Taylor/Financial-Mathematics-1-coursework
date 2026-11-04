@@ -73,7 +73,7 @@ is not returned to you).
 (aiii) Rate of return, R = 
 
 $$
-R = \frac{1{,}200 - 1{,}000}{1{,}000} = 20\%
+R = \frac{1{,}200 - 1{,}000}{1{,}000} = 20\text{\%}
 $$
 
 (aiv) The annualised rate of return is:
