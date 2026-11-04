@@ -30,7 +30,7 @@ $$
 $$
 (b) 
 $$
-30000*((1 + \frac{0.053}{4}))^(4*10) = £50790.88
+30000*((1 + \frac{0.053}{4}))^{4*10} = £50790.88
 $$
 (c) 
 $$
@@ -52,23 +52,24 @@ is not returned to you).
 - (iii) What is the rate of return over the 2 years?
 - (iv) What is the annualised rate of return?
 - (v) What is the IRR?
+
 (b) Suppose the prevailing interest rate was 7%. Would you consider this a good investment:
 - (i) If there is no tax?
 - (ii) If the payment is taxed at 5%?
 
 Answers:
 
-(ai) Return = P_final=£1200
-(aii) Profit = P_final - P = £1200 - £1000 = £200
-(aiii) Rate of return, R = $$
+- (ai) Return = P_final=£1200
+- (aii) Profit = P_final - P = £1200 - £1000 = £200
+- (aiii) Rate of return, R = $$
 R = \frac{£1{,}200 - £1{,}000}{£1{,}000} = 20.0\%.
 $$
-(aiv) The annualised rate of return is:
+- (aiv) The annualised rate of return is:
 $$
 r = \frac{R}{T} = \frac{0.2}{2} = 10.0\%.
 $$
 
-**v)Since there is only one payment, the IRR is the same as the equivalent effective interest rate. To check this via the definition, the IRR is the solution of:
+- (v)Since there is only one payment, the IRR is the same as the equivalent effective interest rate. To check this via the definition, the IRR is the solution of:
 $$
 1{,}000 = \frac{1{,}200}{(1+r)^2} \implies r = \sqrt{1.2} - 1 = 9.54\%.
 $$
@@ -78,7 +79,7 @@ cost of holding cash in the bank and earning interest on the balance.
 
 bii) If the payment is subject to a 5% tax, the IRR is the solution of:
 $$
-1{,}000 = \frac{1{,}200*0.95}{(1+r)^2} 
+1{,}000 = \frac{1{,}200(0.95)}{(1+r)^2} 
 $$ 
 This implies $$
 r = \sqrt{1.14} - 1 = 6.77\%.
