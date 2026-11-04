@@ -18,15 +18,15 @@ Also, spot rates are connected to discount rates through the equation  D(T) = $\
 The function sT is the spot rate curve. 
 
 To remove uncertainty as to what the interest rate in the future will be for a specified maturity, 2 parties can enter
-into an **over the counter (OTC) forward rate agreement (FRA)** to specify this interest rate. The forward rate $f_n1, n2$ from
-times n1 and n2 satisfies $(1 + $f_n1, n2$)^(n2-n1) = \frac{(1 + $s_n2$)^(n2)}{(1 + $s_n1$)^(n1)}$
+into an **over the counter (OTC) forward rate agreement (FRA)** to specify this interest rate. The forward rate $f_n1,n2$ from
+times n1 and n2 satisfies $(1 + $f_n1,n2$)^(n2-n1) = \frac{(1 + $s_n2$)^(n2)}{(1 + $s_n1$)^(n1)}$
 
 
 ## My example
 
 A rare earth mine will bring in £1mn at the end of the 1st year so the company wishes to place this into a deposit for 2 years.
 Assume, $s_1$ = the 1-year treasury rate plus 1% to reflect the additional credit risk of the company defaulting compared to the 
-government and $s_3$ = 8%. Find the fair forward rate $f_1, 3$. 
+government and $s_3$ = 8%. Find the fair forward rate $f_1,3$. 
 
 ## Solved exercises
 
