@@ -73,13 +73,13 @@ is not returned to you).
 (aiii) Rate of return, R = 
 
 $$
-R = \frac{1{,}200 - 1{,}000}{1{,}000} = 20\%$
+R = \frac{1{,}200 - 1{,}000}{1{,}000} = 20\%
 $$
 
 (aiv) The annualised rate of return is:
 
 $$
-r = \frac{R}{T} = \frac{0.2}{2} = 10\%$
+r = \frac{R}{T} = \frac{0.2}{2} = 10\%
 $$
 
 (v)Since there is only one payment, the IRR is the same as the equivalent effective interest rate. To check this via the definition, the IRR is the solution of:
