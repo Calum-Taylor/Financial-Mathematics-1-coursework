@@ -26,7 +26,7 @@ Hence, if $X_i$ ~ lognormal($\mu_i$, $\sigma_i^2$) then $X_1$ + … + $X_n$ ~ lo
 
 ## My example
 
-Suppose we deposit £500 into an investment for 4 years where R_i is the annually compounded rate and R_i are iid with 1 + R_i ~ lognormal(0.09, 0.05).
+Suppose we deposit £500 into an investment for 4 years where $R_i$ is the annually compounded rate and $R_i$ are iid with 1 + $R_i$ ~ lognormal(0.09, 0.05).
 Find the mean accumulated value after 4 years. 
 
 Answer: 
