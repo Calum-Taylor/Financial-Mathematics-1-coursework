@@ -8,7 +8,7 @@ Interest rates help to explain how a principal amount £P, also referred to the 
 interest rate r. However, interest rates can be quoted in a variety of different ways. 
 - For example, if interest was compounded n times a year, then in t years the principal would have grown to $P(1 + \frac{r}{n})^{nt}$ 
 - Also, interest can be continuously compounded where interest is being added and reinvested at every moment in time leading to exponential
-growth in the principal amount. In this case, after t years the principal would have grown to $P(e^(rt))$
+growth in the principal amount. In this case, after t years the principal would have grown to $P(e^{rt})$
 Hence, to compare the effect of different compounding frequencies we need to use effective annual interest rates. 
 - When interest is compounded n times a year then reff = $(1 + \frac{r}{n})^n -1 $
 - When interest is continuously compounded, reff = $e^r -1 $
@@ -28,10 +28,12 @@ Answers:
 $$
 30000*((1 + 0.053)^10) = £50281.12
 $$
+
 (b) 
 $$
 30000*((1 + \frac{0.053}{4}))^{4*10} = £50790.88
 $$
+
 (c) 
 $$
 30000*(e^(0.053*10)) = £50967.97
@@ -59,7 +61,7 @@ is not returned to you).
 
 Answers:
 
-- (ai) Return = P_final=£1200
+- (ai) Return = P_final = £1200
 - (aii) Profit = P_final - P = £1200 - £1000 = £200
 - (aiii) Rate of return, R = $$
 R = \frac{£1{,}200 - £1{,}000}{£1{,}000} = 20.0\%.
@@ -81,14 +83,15 @@ bii) If the payment is subject to a 5% tax, the IRR is the solution of:
 $$
 1{,}000 = \frac{1{,}200(0.95)}{(1+r)^2} 
 $$ 
-This implies $$
+This implies
+$$
 r = \sqrt{1.14} - 1 = 6.77\%.
 $$
 IRR = 6.77% < 7% = nominal rate so the investment would not considered to be a good one.
 
 
 ### Excercise 1.8 (from Exercise Sheet 1)
-Consider a deposit of \$1 that accrues a nominal interest rate of 100% compounded n  times a year. Calculate how
+Consider a deposit of \$1 that accrues a nominal interest rate of 100% compounded n times a year. Calculate how
 much money you will have in the bank in one year as n tends to $\infty$.
 
 Answer: limit as n tends to $\infty$ of (1 + \frac{1}{n})^n = e = $2.72 (correct to 2 decimal places)
