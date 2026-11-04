@@ -8,7 +8,7 @@ A forward contract is an OTC transaction between 2 parties whereby the seller pr
 underlying asset at a pre-determined price, K, at a pre-determined specified date, T, and in return the buyer must buy the asset.
 This is different to an option contract which gives the buyer the right but not the obligation to buy a specified amount of an
 underlying asset at a pre-determined price and a pre-determined specified date from the seller. 
-Let S_t represent the price at time t of an asset. The forward payoff function satisfies f(x)=S - K     
+Let $S_t$ represent the price at time t of an asset. The forward payoff function satisfies f(x) = S - K     
 The forward price F at t=T satisfies F = $\frac{S_0}{D(T)}$ where D(T) is the discount factor to time t. 
 
 
