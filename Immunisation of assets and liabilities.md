@@ -57,8 +57,8 @@ Suppose the nominal interest rate is 4% and is continuously compounded. Compute 
 - convexity
 
 of the following cash-flow streams:
-- (a) An investment that pays you £1{,)000 at the end of year 2 and pounds 500 at the end of year 3.
-- (b) A liability that requires you to pay £1{,}500 at the end of years 3 and 4.
+- (a) An investment that pays you £1000 at the end of year 2 and £500 at the end of year 3.
+- (b) A liability that requires you to pay £1500 at the end of years 3 and 4.
 
 Answers:
 
