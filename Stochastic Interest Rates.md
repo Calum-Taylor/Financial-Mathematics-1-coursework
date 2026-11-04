@@ -5,11 +5,11 @@
 ## Summary
 
 Interest rates in the future are inherently uncertain, so stochastic interest rates allow us to model this uncertainty
-using random variables. Let $R_i$ be the interest rate valid from t = i-1 to t = i. So, at time n * $\Delta$ t a deposit with principal
+using random variables. Let $R_i$ be the interest rate valid from t = i-1 to t = i. So, at time n$\Delta$t a deposit with principal
 P would have grown to
 
 $$
-P(1 + R_1 * \delta t)(1 + R_2 * \delta t)...(1 + R_n * \delta t)                             
+P(1 + R_1 \Delta t)(1 + R_2 \Delta t)...(1 + R_n \Delta t)                             
 $$
 
 We often model 1 + $R_i$ ~ lognormal($\mu$, $\sigma^2$) where $R_i$ $\in$ (-1, $\infty$) so 1 + $R_i$ $\in$ (0, $\infty$) and a lognormal distribution doesn’t
