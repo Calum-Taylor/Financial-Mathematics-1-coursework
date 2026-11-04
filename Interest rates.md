@@ -6,10 +6,11 @@
 
 Interest rates help to explain how a principal amount £P, also referred to the amount we borrow, grows over time under a nominal
 interest rate r. However, interest rates can be quoted in a variety of different ways. 
-- For example, if interest was compounded n times a year, then in t years the principal would have grown to $P(1 + \frac{r}{n})^{nt}$ 
-- Also, interest can be continuously compounded where interest is being added and reinvested at every moment in time leading to exponential
+- For example, if interest was **compounded n times a year**, then in t years the principal would have grown to $P(1 + \frac{r}{n})^{nt}$ 
+- Also, interest can be **continuously compounded** where interest is being added and reinvested at every moment in time leading to exponential
 growth in the principal amount. In this case, after t years the principal would have grown to $P(e^{rt})$
-Hence, to compare the effect of different compounding frequencies we need to use effective annual interest rates. 
+
+Hence, to compare the effect of different compounding frequencies we need to use **effective annual interest rates**. 
 - When interest is compounded n times a year then reff = $(1 + \frac{r}{n})^n -1 $
 - When interest is continuously compounded, reff = $e^r -1 $
 
@@ -23,7 +24,7 @@ in 10 years if interest is:
 - (c) Compounded continuously
 Calculate the effective rates in each of the scenarios to confirm which gives the lowest effective rate.
 
-Answers:
+**Answers:**
 (a) 
 
 $$
@@ -63,7 +64,7 @@ is not returned to you).
 - (i) If there is no tax?
 - (ii) If the payment is taxed at 5%?
 
-Answers:
+**Answers:**
 
 (ai) Return = P_final = £1200
 
@@ -109,7 +110,7 @@ IRR = 6.77% < 7% = nominal rate so the investment would not considered to be a g
 Consider a deposit of £1 that accrues a nominal interest rate of 100% compounded n times a year. Calculate how
 much money you will have in the bank in one year as n tends to $\infty$.
 
-Answer:
+**Answer:**
 
 $$
 \lim_{n \to \infty}\left(1 + \frac{1}{n}\right)^{n} = e \approx £2.72
