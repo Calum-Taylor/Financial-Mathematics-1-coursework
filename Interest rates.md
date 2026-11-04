@@ -24,14 +24,17 @@ in 10 years if interest is:
 Calculate the effective rates in each of the scenarios to confirm which gives the lowest effective rate.
 
 Answers:
-(a) $$
-30{,}000*((1 + 0.053)^10) = £50{,}281.12
+(a) 
 $$
-(b) $$
-30{,}000*((1 + \frac{0.053}{4}))^(4*10) = £50{,}790.88
+30000*((1 + 0.053)^10) = £50281.12
 $$
-(c) $$
-30{,}000*(e^(0.053*10)) = £50{,}967.97
+(b) 
+$$
+30000*((1 + \frac{0.053}{4}))^(4*10) = £50790.88
+$$
+(c) 
+$$
+30000*(e^(0.053*10)) = £50967.97
 $$
 Interest continuously compounded yields the highest accumulated balance and effective annual rate because interest is being applied at every single
 moment in time. This is in contrast to interest being applied annually at the end of every year.
