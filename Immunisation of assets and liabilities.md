@@ -43,7 +43,7 @@ NPV'(r) = - \frac{1}{(1 + r)^2} + \frac{2}{(1 + r)^3} - \frac{9}{(1 + r)^4} - \f
 $$
 
 Using software, such as Excel (see my Excel document attached), you will see that There is no interest rate, r, such that both NPV(r) = 0 and
-NPV'(r) = 0 meaning 1st order immunisation can' t be achieved. This implies that Reddington immunisation can't be achieved either because 1st
+NPV'(r) = 0 meaning 1st order immunisation can't be achieved. This implies that Reddington immunisation can't be achieved either because 1st
 order immunisation is a necessary condition for Reddington immunisation.
 
 
@@ -72,7 +72,7 @@ It can be shown that the duration and effective duration of interest continuousl
 each other, though we will not prove this here. Hence,
 
 $$
-\tau = \nu = \frac{2 * 1{,}000 * e^{0.04(2)} + 3 * 500 * e^{-0.04(3)}{PV}} = 2.32 years
+\tau = \nu = \frac{2 * 1{,}000 * e^{0.04(2)} + 3 * 500 * e^{-0.04(3)}}{PV} = 2.32 years
 $$
 
 
