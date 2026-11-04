@@ -50,43 +50,43 @@ Suppose the nominal interest rate is 4% and is continuously compounded. Compute 
 - effective duration, and
 - convexity
 of the following cash-flow streams:
-(a) An investment that pays you pounds 1{,)000 at the end of year 2 and pounds 500 at the end of year 3.
-(b) A liability that requires you to pay pounds 1{,}500 at the end of years 3 and 4.
+(a) An investment that pays you £1{,)000 at the end of year 2 and pounds 500 at the end of year 3.
+(b) A liability that requires you to pay £1{,}500 at the end of years 3 and 4.
 
 Answers:
 
 (a) 
 
 $$ 
-PV = 1{,}000*(e^(-0.04*2)) + 500*(e^-0.04*3) = pounds 1{,}370
+PV = 1{,}000*(e^{-0.04(2)} + 500*(e^{-0.04(3)} = £1{,}370
 $$
 
 It can be shown that the duration and effective duration of interest continuously compounded are equal to 
 each other, though we will not prove this here. Hence,
 
 $$
-$\tau$ = $\nu$ = \frac{2 * 1{,}000 * (e^(-0.04)*2) + 3 * 500 * (e^(-0.04)*3)}{PV} = 2.32 years
+$\tau$ = $\nu$ = \frac{2 * 1{,}000 * (e^{0.04(2)} + 3 * 500 * (e^{-0.04(3)}{PV} = 2.32 years
 $$
 
 $$
-Convexity c = \frac{(2^2) * 1{,}000 * (e^(-0.04)*2) + (3^2) * 500 * (e^(-0.04)*3)}{PV} = 5.62
+Convexity c = \frac{(2^2) * 1{,}000 * (e^{-0.04(2)} + (3^2) * 500 * (e^{-0.04(3)}}{PV} = 5.62
 $$
 
 
 (b) 
 
 $$
-PV = 1{,}500*(e^(-0.04*3)) + 1{,}500*(e^-0.04*4) = pounds 2{,}610
+PV = 1{,}500*(e^{-0.04(3)} + 1{,}500*(e^{-0.04(4)} = £2{,}610
 $$
 
 The duration and convexity are both equal to:
 
 $$
-$\tau$ = $\nu$ = \frac{3 * 1{,}500 * (e^(-0.04)*3) + 4 * 1{,}500 * (e^(-0.04)*4)}{PV} = 3.49 years
+$\tau$ = $\nu$ = \frac{3 * 1{,}500 * (e^{-0.04(3)} + 4 * 1{,}500 * (e^{-0.04(4)}}{PV} = 3.49 years
 $$
 
 $$
-Convesixity c = \frac{(3^2) * 1{,}500 * (e^(-0.04)*3) + (4^2) * 1{,}500 * (e^(-0.04)*4)}{PV} = 5.62
+Convesixity c = \frac{(3^2) * 1{,}500 * (e^{-0.04(3)} + (4^2) * 1{,}500 * (e^{-0.04(4)}}{PV} = 5.62
 $$
 
 
