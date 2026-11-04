@@ -9,15 +9,15 @@ using random variables. Let $R_i$ be the interest rate valid from t = i-1 to t =
 P would have grown to
 
 $$
-P(1 + $R_1$ * $\delta$ t)(1 + $R_2$ * $\delta$ t)...(1 + $R_n$ * $\delta$ t)                             
+P(1 + R_1 * \delta t)(1 + R_2 * \delta t)...(1 + R_n * \delta t)                             
 $$
 
-We often model 1 + $R_i$ ~ lognormal($\mu$, (\sigma)^2) where $R_i$ $\in$ (-1, $\infty$) so 1 + $R_i$ $\in$ (0, $\infty$) and a lognormal distribution doesn’t
+We often model 1 + $R_i$ ~ lognormal($\mu$, $\sigma^2$) where $R_i$ $\in$ (-1, $\infty$) so 1 + $R_i$ $\in$ (0, $\infty$) and a lognormal distribution doesn’t
 take negative values. This is useful when modelling many financial instruments, e.g. a bond price, as these don’t take a negative value either.
 Suppose X ~ lognormal($\mu$, $\sigma^2$) then
 
 $$
-E(X)= e^{$\mu$ + \frac{$\sigma^2$}{2}}      
+E(X)= e^{\mu + \frac{\sigma^2}{2}}      
 $$
 
 We also assume $R_i$ are iid (independent, identically distributed) as this helps to make the maths much easier.
