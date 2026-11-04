@@ -68,7 +68,7 @@ $$
 Applying the quadratic formula gives y = -0.651388 or y = 1.15139. r = $\sqrt y$ - 1 and since taking the square root of a negative number produces a complex number,the only valid solution is y = 1.15139. Thus,
 
 $$
-r = \sqrt 1.15139 -1 = 7.30 %
+r = \sqrt 1.15139 -1 = 0.073
 $$
 
 ### Excercise 2.3 (from Exercise Sheet 2)
@@ -78,7 +78,7 @@ one in a month’s time. The interest rate is 6%, compounded monthly. Calculate 
 Answer: Let 
 
 $$ 
-β = D(\frac{1}{12}) = \frac{1}{(1 + (\frac{0.06}{12}))^\frac{1}{12} *12} = \frac{1}{1.005} 
+β = D(\frac{1}{12}) = \frac{1}{(1 + \frac{0.06}{12})^\frac{1}{12} *12} = \frac{1}{1.005} 
 $$
 
 Let P = PV of instalments. Hence, we need
