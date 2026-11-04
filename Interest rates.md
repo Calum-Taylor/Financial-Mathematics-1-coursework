@@ -6,21 +6,21 @@
 
 Interest rates help to explain how a principal amount £P, also referred to the amount we borrow, grows over time under a nominal
 interest rate r. However, interest rates can be quoted in a variety of different ways. 
-- For example, if interest was compounded n times a year, then in t years the principal would have grown to $P(1 + \frac{r}{n})^(nt)$ 
+- For example, if interest was compounded n times a year, then in t years the principal would have grown to $P(1 + \frac{r}{n})^{nt}$ 
 - Also, interest can be continuously compounded where interest is being added and reinvested at every moment in time leading to exponential
-growth in the principal amount. In this case, after t years the principal would have grown to $P*(e^(rt))$
+growth in the principal amount. In this case, after t years the principal would have grown to $P(e^(rt))$
 Hence, to compare the effect of different compounding frequencies we need to use effective annual interest rates. 
 - When interest is compounded n times a year then reff = $(1 + \frac{r}{n})^n -1 $
-- When interest is continuously compounded, reff = $(e^r)-1 $
+- When interest is continuously compounded, reff = $e^r -1 $
 
 ## My example
 
 Suppose I take out a £30,000 loan at the 10-year gilt yield of 5.30%, as of 30 Octoer 2026, to cover tuition fees for the duration of my BSc where
 each year study costs £10,000 and I am required to pay fees for every year upfront at the start of the 1st year.  How much will the loan be worth
 in 10 years if interest is: 
-(a) Compounded annually     
-(b) Compounded quarterly
-(c) Compounded continuously
+- (a) Compounded annually     
+- (b) Compounded quarterly
+- (c) Compounded continuously
 Calculate the effective rates in each of the scenarios to confirm which gives the lowest effective rate.
 
 Answers:
@@ -84,10 +84,10 @@ IRR = 6.77% < 7% = nominal rate so the investment would not considered to be a g
 
 
 ### Excercise 1.8 (from Exercise Sheet 1)
-Consider a deposit of $1 that accrues a nominal interest rate of 100% compounded n  times a year. Calculate how
+Consider a deposit of \$1 that accrues a nominal interest rate of 100% compounded n  times a year. Calculate how
 much money you will have in the bank in one year as n tends to $\infty$.
 
-Answer: limit as n tends to $\infty$ of (1 + frac{1}{n})^n = e = $2.72 (correct to 2 decimal places)
+Answer: limit as n tends to $\infty$ of (1 + \frac{1}{n})^n = e = $2.72 (correct to 2 decimal places)
 
 
 ## Spreadsheet
