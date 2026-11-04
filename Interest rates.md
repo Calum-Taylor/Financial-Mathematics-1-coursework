@@ -100,7 +100,7 @@ $$
 This implies
 
 $$
-r = \sqrt{1.14} - 1 = 6.77\%.
+r = \sqrt{1.14} - 1 = 6.77 \%.
 $$
 
 IRR = 6.77% < 7% = nominal rate so the investment would not considered to be a good one.
