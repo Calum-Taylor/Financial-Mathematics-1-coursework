@@ -14,8 +14,8 @@ In practice, interest rates vary depending on the duration of a deposit or loan 
 us to compare the impact of interest rates for different maturities. The spot rate is the effective annual rate for a
 deposit held to a maturity date T defined as $s_T$ = $(1 + r_T * T)^\frac{1}{T}$
 
-Also, spot rates are connected to discount rates through the equation  D(T) = $\frac{1]{(1 + s_T)^T]
-The function sT is the spot rate curve. 
+Also, spot rates are connected to discount rates through the equation  D(T) = $\frac{1]{(1 + s_T)^T}$
+The function $s_T$ is the spot rate curve. 
 
 To remove uncertainty as to what the interest rate in the future will be for a specified maturity, 2 parties can enter
 into an **over the counter (OTC) forward rate agreement (FRA)** to specify this interest rate. The forward rate $f_n1,n2$ from
