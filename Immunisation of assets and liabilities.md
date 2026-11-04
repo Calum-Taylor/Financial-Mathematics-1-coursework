@@ -39,7 +39,7 @@ Determine whether Reddington immunisation can be achieved.
 Answer: 
 
 $$
-\text{NPV}(r) = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} - \frac{3}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{4}{(1 + r)^4}
+NPV(r) = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} - \frac{3}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{4}{(1 + r)^4}
 - \frac{0.5}{(1 + r)^4} = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} - \frac{1}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{3.5}{(1 + r)^4}
 $$
 
@@ -81,9 +81,10 @@ $$
 \tau = \nu = \frac{2 * 1{,}000 * e^{0.04(2)} + 3 * 500 * e^{-0.04(3)}}{PV} = 2.32 years
 $$
 
+The convexity is:
 
 $$
-Convexity c = \frac{(2^2) * 1{,}000 * e^{-0.04(2)} + (3^2) * 500 * e^{-0.04(3)}}{PV} = 5.62
+c = \frac{(2^2) * 1{,}000 * e^{-0.04(2)} + (3^2) * 500 * e^{-0.04(3)}}{PV} = 5.62
 $$
 
 
