@@ -18,7 +18,7 @@ Suppose we invest an amount P in a project which generates a cash flow stream m 
 $t_1$, $t_2$, …, $t_n$. The IRR is the number r $\in$ (-1, $\infty$) such that f(r) = 0 where 
 
 $$
-f(r) = -P + \sum_{i=1}^a_i(1 + r){-t_i}    
+f(r) = -P + \sum_{i=1}^{n} a_i(1 + r){-t_i}    
 $$
 
 Hence, IRR is a useful metric used to evaluate whether an investment will meet their required hurdle rate.
