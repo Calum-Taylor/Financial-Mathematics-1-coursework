@@ -4,22 +4,28 @@
 
 ## Summary
 
-Assets refer to positive future cash flows while liabilities refer to negative future cash flows, i.e. outgoing payments.
+**Assets** refer to positive future cash flows while **liabilities** refer to negative future cash flows, i.e. outgoing payments.
 
-So, the NPV is the sum of assets and liabilities. 
+So, the **NPV** is the sum of assets and liabilities. 
 
-The effective duration of a cash flow stream is $\nu = - \frac{NPV'(r)}{NPV(r)} which identifies how sensitive the NPV is to r. 
+The **effective duration** of a cash flow stream is 
 
-The duration of a cash flow stream is $\tau = frac{\sum_{i=1}^n t_i\ $C_i$ D($t_i$)}{NPV(r)}$ where $C_i$ and D($t_i$) represent cash flows
+$$
+\nu = - \frac{NPV'(r)}{NPV(r)}
+$$
+
+which identifies how sensitive the NPV is to r. 
+
+The **duration** of a cash flow stream is $\tau = \frac{\sum_{i=1}^n t_i\ C_i D(t_i)}{NPV(r)}$ where $C_i$ and D($t_i$) represent cash flows
 and discount factors at time i where i = 1, 2, ..., n. Thus, duration is a weighted average of the times we receive a cash flow,
 weighted by the NPV of the cash flow and is measured in years.
 
-It is said that a sequence of cash flows immunised to order 0 if NPV(r) = 0, in other words assets and liabilities are matched.
+It is said that a sequence of cash flows **immunised to order 0** if NPV(r) = 0, in other words assets and liabilities are matched.
 
-A sequence of cash flows is immunised to order 1 if NPV(r) = 0 and NPV’(r) = 0; this implies that cash flows must be immunised
+A sequence of cash flows is **immunised to order 1** if NPV(r) = 0 and NPV’(r) = 0; this implies that cash flows must be immunised
 to order 0, we are delta neutral and the duration of assets and liabilities is matched.  
 
-A sequence of cash flows is Reddington immune if NPV(r) = 0, NPV’(r) = 0 and NPV’’(r) >_ 0; this implies that cash flows must be
+A sequence of cash flows is **Reddington immune** if NPV(r) = 0, NPV’(r) = 0 and NPV’’(r) \geq 0; this implies that cash flows must be
 immunised to order 1, we are long gamma and the convexity of assets is greater than the convexity of liabilities. 
 Hence, Reddington immunisation means that if interest rates move up or down a bit, NPV(r) increases which helps to reduce market risk. 
 
@@ -33,7 +39,7 @@ Determine whether Reddington immunisation can be achieved.
 Answer: 
 
 $$
-NPV(r) = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} - \frac{3]{(1 + r)^2)} + \frac{3}{(1 + r)^3} + \frac{4}{(1 + r)^4}
+NPV(r) = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} - \frac{3}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{4}{(1 + r)^4}
 - \frac{0.5}{(1 + r)^4} = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} - \frac{1}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{3.5}{(1 + r)^4}
 $$
 
