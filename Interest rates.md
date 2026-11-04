@@ -106,13 +106,13 @@ IRR = 6.77% < 7% = nominal rate so the investment would not considered to be a g
 
 
 ### Excercise 1.8 (from Exercise Sheet 1)
-Consider a deposit of \£1 that accrues a nominal interest rate of 100% compounded n times a year. Calculate how
+Consider a deposit of £1 that accrues a nominal interest rate of 100% compounded n times a year. Calculate how
 much money you will have in the bank in one year as n tends to $\infty$.
 
 Answer:
 
 $$
-limit as n tends to $\infty$ of (1 + \frac{1}{n})^n = e = £2.72 (correct to 2 decimal places)
+\lim_{n \to \infty}\left(1 + \frac{1}{n}\right)^{n} = e = £2.72 (correct to 2 decimal places)
 $$
 
 ## Spreadsheet
