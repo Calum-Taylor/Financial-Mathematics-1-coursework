@@ -29,8 +29,28 @@ $$
 ## My example
 
 A rare earth mine will bring in £1mn at the end of the 1st year so the company wishes to place this into a deposit for 2 years.
-Assume, $s_1$ = the 1-year treasury rate plus 1% to reflect the additional credit risk of the company defaulting compared to the 
-government and $s_3$ = 8%. Find the fair forward rate $f_{1, 3}$. 
+Assume, $s_1$ = the 1-year Gilt rate plus 1% to reflect the additional credit risk of the company defaulting compared to the 
+government and $s_3$ = 8%. Find the fair forward rate $f_{1, 3}$ for each of the cases when the 1 year Gilt rate is 3%, 4% and 5% 
+and the credit premium is 0.5%, 1% and 1.5%.
+
+**Answers:**
+Using the formula above: 
+- When $s_1$ = 3% + 0.5% = 3.5%, $f_{n_1, n_2}$ = 8.79%
+- When $s_1$ = 3% + 1% = 4%, $f_{n_1, n_2}$ = 8.53%
+- When $s_1$ = 3% + 1.5% = 4% + 0.5% = 4.5%, $f_{n_1, n_2}$ = 8.27%
+- When $s_1$ = 4% + 1% = 5%, $f_{n_1, n_2}$ = 8.01%
+- When $s_1$ = 4% + 1.5% = 5% + 0.5% = 5.5%, $f_{n_1, n_2}$ = 7.76%
+- When $s_1$ = 5% + 1% = 6%, $f_{n_1, n_2}$ = 7.50%
+- When $s_1$ = 5% + 1.5% = 6.5%, $f_{n_1, n_2}$ = 7.25%
+
+As the 1 year Gilt rate increases, the fair forward rate decreases; similarly, as the companies credit premium rises so too does the 
+fair forward rate. This is because an increase in  either raise the $s_1$ which raises the denominator  of the fair forward rate formula.
+With $s_3$ fixed, the numerator remains unchanged so the fraction becomes smaller, causing a lower value after taking the square root and 
+subtracting 1. Hence, there is an inverse relationship between $s_1$ and $f_{1, 3}$ holding $s_3$ constant. More generally, there is an inverse
+relationship between $s_{n_1}$ and $f_{n_1, n_2}$ holding $s_{n_2} constant. Intuitively, the higher the interest rate in the near future, the
+less interest that will have to be paid in the future to achieve	the same overall accumulation of interest the company needs.								
+
+
 
 ## Solved exercises
 
