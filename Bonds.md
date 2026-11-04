@@ -47,7 +47,7 @@ As the 1 year Gilt rate increases, the fair forward rate decreases; similarly, a
 fair forward rate. This is because an increase in  either raise the $s_1$ which raises the denominator  of the fair forward rate formula.
 With $s_3$ fixed, the numerator remains unchanged so the fraction becomes smaller, causing a lower value after taking the square root and 
 subtracting 1. Hence, there is an inverse relationship between $s_1$ and $f_{1, 3}$ holding $s_3$ constant. More generally, there is an inverse
-relationship between $s_{n_1}$ and $f_{n_1, n_2}$ holding $s_{n_2} constant. Intuitively, the higher the interest rate in the near future, the
+relationship between $s_{n_1}$ and $f_{n_1, n_2}$ holding $s_{n_2}$ constant. Intuitively, the higher the interest rate in the near future, the
 less interest that will have to be paid in the future to achieve	the same overall accumulation of interest the company needs.								
 
 
