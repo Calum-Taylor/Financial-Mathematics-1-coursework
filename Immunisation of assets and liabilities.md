@@ -8,9 +8,9 @@ Assets refer to positive future cash flows while liabilities refer to negative f
 
 So, the NPV is the sum of assets and liabilities. 
 
-The effective duration of a cash flow stream is $\nu = $- \frac{NPV'(r)}{NPV(r)}$ which identifies how sensitive the NPV is to r. 
+The effective duration of a cash flow stream is $\nu = - \frac{NPV'(r)}{NPV(r)} which identifies how sensitive the NPV is to r. 
 
-The duration of a cash flow stream is $\tau = frac{\sum_{i=1}^n t_i\,C_i,D(t_i)}{NPV(r)}$ where C_i and D(t_i) represent cash flows
+The duration of a cash flow stream is $\tau = frac{\sum_{i=1}^n t_i\ $C_i$ D($t_i$)}{NPV(r)}$ where $C_i$ and D($t_i$) represent cash flows
 and discount factors at time i where i = 1, 2, ..., n. Thus, duration is a weighted average of the times we receive a cash flow,
 weighted by the NPV of the cash flow and is measured in years.
 
@@ -94,6 +94,7 @@ $$
 $$
 
 The convexity is:
+
 $$
 c = \frac{(3^2) * 1{,}500 * e^{-0.04(3)} + (4^2) * 1{,}500 * e^{-0.04(4)}}{PV} = 5.62
 $$
