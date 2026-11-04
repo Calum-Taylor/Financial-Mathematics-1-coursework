@@ -112,7 +112,7 @@ much money you will have in the bank in one year as n tends to $\infty$.
 Answer:
 
 $$
-\lim_{n \to \infty}\left(1 + \frac{1}{n}\right)^{n} = e = £2.72 (correct to 2 decimal places)
+\lim_{n \to \infty}\left(1 + \frac{1}{n}\right)^{n} = e = \approx £2.72
 $$
 
 ## Spreadsheet
