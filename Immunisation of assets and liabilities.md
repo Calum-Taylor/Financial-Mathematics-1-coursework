@@ -6,8 +6,8 @@
 
 Assets refer to positive future cash flows while liabilities refer to negative future cash flows, i.e. outgoing payments.
 So, the NPV is the sum of assets and liabilities. 
-The effective duration of a cash flow stream is \nu = $- \frac{NPV'(r)}{NPV(r)}$ which identifies how sensitive the NPV is to r. 
-The duration of a cash flow stream is \tau = $frac{\sum_{i=1}^n t_i\,C_i,D(t_i)}{NPV(r)} where C_i and D(t_i) represent cash flows
+The effective duration of a cash flow stream is $\nu = $- \frac{NPV'(r)}{NPV(r)}$ which identifies how sensitive the NPV is to r. 
+The duration of a cash flow stream is $\tau = frac{\sum_{i=1}^n t_i\,C_i,D(t_i)}{NPV(r)}$ where C_i and D(t_i) represent cash flows
 and discount factors at time i where i = 1, 2, ..., n. Thus, duration is a weighted average of the times we receive a cash flow,
 weighted by the NPV of the cash flow and is measured in years.
 It is said that a sequence of cash flows immunised to order 0 if NPV(r) = 0, in other words assets and liabilities are matched.
@@ -24,13 +24,18 @@ Suppose a company invests £5mn in a rare earth mine which will generate £1mn, 
 4th years, respectively. Also, there are additional liabilities of £3mn and £0.5mn at the ends of the 2nd and 4th years, respectively.
 Determine whether Reddington immunisation can be achieved.
 
-Answer: $$
+Answer: 
+
+$$
 NPV(r) = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} - \frac{3]{(1 + r)^2)} + \frac{3}{(1 + r)^3} + \frac{4}{(1 + r)^4}
 - \frac{0.5}{(1 + r)^4} = \frac{-5}{(1 + r)^0} + \frac{1}{(1 + r)^1} - \frac{1}{(1 + r)^2} + \frac{3}{(1 + r)^3} + \frac{3.5}{(1 + r)^4}
 $$
+
+
 $$
 NPV'(r) = - \frac{1}{(1 + r)^2} + \frac{2}{(1 + r)^3} - \frac{9}{(1 + r)^4} - \frac{14}{(1 + r)^4}
 $$
+
 Using software, such as Excel (see my Excel document attached), you will see that There is no interest rate, r, such that both NPV(r) = 0 and
 NPV'(r )= 0 meaning 1st order immunisation can' t be achieved. This implies that Reddington immunisation can't be achieved either because 1st
 order immunisation is a necessary condition for Reddington immunisation.
@@ -49,29 +54,40 @@ of the following cash-flow streams:
 (b) A liability that requires you to pay pounds 1{,}500 at the end of years 3 and 4.
 
 Answers:
-(a) $$ 
+
+(a) 
+
+$$ 
 PV = 1{,}000*(e^(-0.04*2)) + 500*(e^-0.04*3) = pounds 1{,}370
 $$
 
 It can be shown that the duration and effective duration of interest continuously compounded are equal to 
 each other, though we will not prove this here. Hence,
+
 $$
 $\tau$ = $\nu$ = \frac{2 * 1{,}000 * (e^(-0.04)*2) + 3 * 500 * (e^(-0.04)*3)}{PV} = 2.32 years
 $$
 
-Convexity c = $$ frac{(2^2) * 1{,}000 * (e^(-0.04)*2) + (3^2) * 500 * (e^(-0.04)*3)}{PV} = 5.62 $$
+$$
+Convexity c = \frac{(2^2) * 1{,}000 * (e^(-0.04)*2) + (3^2) * 500 * (e^(-0.04)*3)}{PV} = 5.62
+$$
 
 
-(b) $$
+(b) 
+
+$$
 PV = 1{,}500*(e^(-0.04*3)) + 1{,}500*(e^-0.04*4) = pounds 2{,}610
 $$
 
 The duration and convexity are both equal to:
+
 $$
 $\tau$ = $\nu$ = \frac{3 * 1{,}500 * (e^(-0.04)*3) + 4 * 1{,}500 * (e^(-0.04)*4)}{PV} = 3.49 years
 $$
 
-Convesixity c = $$ frac{(3^2) * 1{,}500 * (e^(-0.04)*3) + (4^2) * 1{,}500 * (e^(-0.04)*4)}{PV} = 5.62 $$
+$$
+Convesixity c = \frac{(3^2) * 1{,}500 * (e^(-0.04)*3) + (4^2) * 1{,}500 * (e^(-0.04)*4)}{PV} = 5.62
+$$
 
 
 ### Exercise 3.6 (from Exercise Sheet 3)
@@ -80,17 +96,24 @@ to be paid in 6 years. The interest rate is 10% compounded annually. Show that w
 immunisation of these liabilities with 4 year and 7 year zero coupon bonds by trying to construct a portfolio
 of these bonds that does Redington immunise them.
 
-Answer: $$
+Answer: 
+
+$$
 NPV(r) = - \frac{20{,}000}{(1.1)^3.5} + \frac{P}{(1.1)^4} - \frac{18{,}000}{(1.1)^6} + \frac{Q}{(1.1)^7}
 $$
+
+
 $$
 NPV'(r) = \frac{70{,}000}{(1.1)^4.5} - \frac{4P}{(1.1)^5} + \frac{6*18{,}000}{(1.1)^7} - \frac{7Q}{(1.1)^8}
 $$
+
 Setting NPV(10%) = 0 and NPV'(10%) = 0 we get a pair of simultaneous equations which we can solve to get
 P = 29, 400 and Q = 8, 550
+
 $$
 NPV''(r) = - \frac{4.5 * 70{,}000}{(1.1)^5.5} + \frac{20P}{(1.1)^6} - \frac{42 * 18{,}000}{(1.1)^8} + \frac{56Q}{(1.1)^9}
 $$
+
 Subsitutitng the values for P and Q qe get NPV''(10%) = -4198.923397 < 0 
 Hence, Reddington immunisation cannot be achieved using a compbination of 4 year and 7 year zero coupon bonds.
 
