@@ -70,11 +70,7 @@ is not returned to you).
 
 (aii) Profit = P_final - P = £1200 - £1000 = £200
 
-(aiii) Rate of return, R = 
-
-$$
-R = \frac{1{,}200 - 1{,}000}{1{,}000} = 20\text{\%}
-$$
+(aiii) Rate of return, R = \frac{1{,}200 - 1{,}000}{1{,}000} = 20\%
 
 (aiv) The annualised rate of return is:
 
