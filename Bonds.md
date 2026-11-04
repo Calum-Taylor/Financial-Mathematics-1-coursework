@@ -22,7 +22,7 @@ into an **over the counter (OTC) forward rate agreement (FRA)** to specify this 
 times $n_1$ and $n_2$ satisfies 
 
 $$
-(1 + $f_{n_1, n_2}$)^{n_2 - n_1} = \frac{(1 + $s_{n_2}$)^{n_2}}{(1 + $s_{n_1}$)^{n_1}}
+(1 + f_{n_1, n_2})^{n_2 - n_1} = \frac{(1 + s_{n_2})^{n_2}}{(1 + s_{n_1})^{n_1}}
 $$
 
 
