@@ -19,7 +19,7 @@ The function $s_T$ is the spot rate curve.
 
 To remove uncertainty as to what the interest rate in the future will be for a specified maturity, 2 parties can enter
 into an **over the counter (OTC) forward rate agreement (FRA)** to specify this interest rate. The forward rate $f_{n_1, n_2}$ from
-times n1 and n2 satisfies $(1 + $f_{n_1, n_2}$)^{n2-n1} = \frac{(1 + $s_n2$)^{n2}}{(1 + $s_n1$)^{n1}}$
+times n1 and n2 satisfies $(1 + $f_{n_1, n_2}$)^{n2-n1} = \frac{(1 + $s_{n_2}$)^{n2}}{(1 + $s_{n_1}$)^{n1}}$
 
 
 ## My example
