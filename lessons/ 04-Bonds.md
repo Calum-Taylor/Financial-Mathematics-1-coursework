@@ -60,5 +60,5 @@ Question, then your solution.
 
 ## Spreadsheet
 
-[04-Bonds.xlsx](../spreadsheets/04-Bonds.xlsx): what it
-does, which cells to change and what to look at
+[04-Bonds.xlsx](../spreadsheets/04-Bonds.xlsx): this is the Excel version of the answer to my example. In the sensitivity analysis table you can 
+change any of the 1 year Gilt rates, the credit premiums and $s_3$ to see how this influences $f_{1, 3}$.
