@@ -104,5 +104,5 @@ Substituting the value for β we get P = £365.06 (correct to 2 decimal places)
 
 ## Spreadsheet
 
-[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): what it
+[02-PresentValue.xlsx](../spreadsheets/02-PresentValue.xlsx): what it
 does, which cells to change and what to look at.
