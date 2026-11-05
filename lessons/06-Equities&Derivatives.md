@@ -27,5 +27,5 @@ Question, then your solution.
 
 ## Spreadsheet
 
-[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): what it
+[06-Equities&Derivatives.xlsx](../spreadsheets/06-Equities&Derivatives.xlsx): what it
 does, which cells to change and what to look at.
