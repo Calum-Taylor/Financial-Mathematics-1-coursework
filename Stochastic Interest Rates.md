@@ -32,7 +32,7 @@ Find the mean accumulated value after 4 years.
 **Answer:** 
 
 $$
-500*e^{4(0.09 + \frac{0.05}{2})} = £792.04
+500*e^{4(0.09 + \frac{0.05}{2})} \approx £792.04
 $$
 
 
