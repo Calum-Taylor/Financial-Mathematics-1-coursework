@@ -137,5 +137,5 @@ Hence, Reddington immunisation cannot be achieved using a compbination of 4 year
 
 ## Spreadsheet
 
-[03-Immunisation.xlsx](../spreadsheets/03-Immunisation.xlsx): what it
-does, which cells to change and what to
+[03-Immunisation.xlsx](../spreadsheets/03-Immunisation.xlsx): this is the Excel version of the answer to my example. Change the interest
+rate in cell D5 to see how this impacts NPV(r) and NPV'(r). You will not find an interest rate such that both NPV(r) = 0 and NPV'(r) = 0.
