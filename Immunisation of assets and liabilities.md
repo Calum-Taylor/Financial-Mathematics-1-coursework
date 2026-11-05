@@ -70,33 +70,33 @@ Answers:
 (a) 
 
 $$ 
-PV = 1{,}000*e^{-0.04(2)} + 500*e^{-0.04(3)} = £1{,}370
+PV = 1{,}000*e^{-0.04(2)} + 500*e^{-0.04(3)} \approx £1{,}370
 $$
 
 It can be shown that the duration and effective duration of interest continuously compounded are equal to 
 each other, though we will not prove this here. Hence,
 
 $$
-\tau = \nu = \frac{2 * 1{,}000 * e^{0.04(2)} + 3 * 500 * e^{-0.04(3)}}{PV} = 2.32 years
+\tau = \nu = \frac{2 * 1{,}000 * e^{0.04(2)} + 3 * 500 * e^{-0.04(3)}}{PV} \approx 2.32 years
 $$
 
 The convexity is:
 
 $$
-c = \frac{(2^2) * 1{,}000 * e^{-0.04(2)} + (3^2) * 500 * e^{-0.04(3)}}{PV} = 5.62
+c = \frac{(2^2) * 1{,}000 * e^{-0.04(2)} + (3^2) * 500 * e^{-0.04(3)}}{PV} \approx 5.62
 $$
 
 
 (b) 
 
 $$
-PV = 1{,}500e^{-0.04(3)} + 1{,}500e^{-0.04(4)} = £2{,}610
+PV = 1{,}500e^{-0.04(3)} + 1{,}500e^{-0.04(4)} \approx £2{,}610
 $$
 
 The duration and convexity are both equal to:
 
 $$
-\tau = \nu = \frac{3 * 1{,}500 * e^{-0.04(3)} + 4 * 1{,}500 * e^{-0.04(4)}}{PV} = 3.49 years
+\tau = \nu = \frac{3 * 1{,}500 * e^{-0.04(3)} + 4 * 1{,}500 * e^{-0.04(4)}}{PV} \approx 3.49 years
 $$
 
 The convexity is:
@@ -124,13 +124,13 @@ NPV'(r) = \frac{70{,}000}{(1.1)^4.5} - \frac{4P}{(1.1)^5} + \frac{6*18{,}000}{(1
 $$
 
 Setting NPV(10%) = 0 and NPV'(10%) = 0 we get a pair of simultaneous equations which we can solve to get
-P = 29, 400 and Q = 8, 550
+P $\approx$ 29, 400 and Q $\approx$ 8, 550
 
 $$
 NPV''(r) = - \frac{4.5 * 70{,}000}{(1.1)^5.5} + \frac{20P}{(1.1)^6} - \frac{42 * 18{,}000}{(1.1)^8} + \frac{56Q}{(1.1)^9}
 $$
 
-Subsitutitng the values for P and Q qe get NPV''(10%) = -4198.923397 < 0 
+Substitutitng the values for P and Q we get NPV''(10%) $\approx$ -4198.923397 < 0 
 Hence, Reddington immunisation cannot be achieved using a compbination of 4 year and 7 year zero coupon bonds.
 
 
