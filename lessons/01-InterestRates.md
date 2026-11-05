@@ -122,6 +122,6 @@ $$
 
 ## Spreadsheet
 
-[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): this is the Excel version of the answers to my own example.
+[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): this is the Excel version of the answers to my example.
 You can see the mathematical formula used so you can see how changing any of the inputs of initial loan, nominal
 interest rate or loan term impact the accumulated balance.
