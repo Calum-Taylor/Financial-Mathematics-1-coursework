@@ -34,7 +34,7 @@ $$
 NPV(r) = - \frac{5}{(1 + r)^0} + \frac{1}{(1 + r)^1} + \frac{2}{(1 + r)^2} + \frac{3}{(1 + r)^3}
 $$
 
-IRR is the value r \in (-1, $\infty$) which makes NPV(r) = 0. Let x = 1 + r 
+IRR is the value r $\in$ (-1, $\infty$) which makes NPV(r) = 0. Let x = 1 + r 
 
 $$
 5x^3 - x^2 - 2x -3 = 0
