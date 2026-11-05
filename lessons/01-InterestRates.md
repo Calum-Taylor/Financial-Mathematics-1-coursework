@@ -66,9 +66,9 @@ is not returned to you).
 
 **Answers:**
 
-(ai) Return = P_final = £1200
+(ai) Return = $P_final$ = £1200
 
-(aii) Profit = P_final - P = £1200 - £1000 = £200
+(aii) Profit = $P_final$ - P = £1200 - £1000 = £200
 
 (aiii) Rate of return is:
 
