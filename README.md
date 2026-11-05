@@ -21,7 +21,7 @@ I asked ChatGPT the following questions:
 
 - How do I format a subscript in GitHub and Excel, e.g. to get the 3 year spot rate to look like $s_3$ rather than s3?
 - How do I format a subscript when I have multiple values I want to subscript in GitHub and Excel, e.g. to get the 2 year forward rate from years 1 to 3 to look like $f_{1, 3}$ rather than $f_1, 3$?
-- When I type e^(rt), for example, how do I get this to format as a power, i.e. e^{rt}, in GitHub and Excel?
+- When I type e^(rt), for example, how do I get this to format as a power, i.e. $e^{rt}$, in GitHub and Excel?
 - To get the mean mu of a lognormal distribution I typed \mu but I didn't get the symbol for mu. How do I get the symbol for this GitHub and Excel?
 - How do I get summary statistics for different observations in Excel?
 
