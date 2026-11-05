@@ -9,10 +9,10 @@ module MTH6154 Financial Mathematics I.
 |---|---|---|---|
 | 1 | Interest rates | [notes](lessons/01-InterestRates.md) | [xlsx](spreadsheets/01-InterestRates.xlsx) |
 | 2 | Present value | [notes](lessons/02-PresentValue.md) | [xlsx](spreadsheets/02-PresentValue.xlsx) |
-| 3 | Immunisation | [notes](lessons/01-InterestRates.md) | [xlsx](spreadsheets/03-Immunisation.xslx) |
+| 3 | Immunisation | [notes](lessons/03-Immunisation.md) | [xlsx](spreadsheets/03-Immunisation.xslx) |
 | 4 | Bonds | [notes](lessons/04-Bonds.md) | [xlsx](spreadsheets/04-Bonds.xlsx) |
-| 5 | Stochastic interest rates | [notes](lessons/01-InterestRates.md) | [xlsx](spreadsheets/05-StochasticInterestRates.xlsx) |
-| 6 | Equities and derivatives | [notes](lessons/01-InterestRates.md) | [xlsx](spreadsheets/06-Equities&Derivatives.xlsx) |
+| 5 | Stochastic interest rates | [notes](lessons/05-StochasticInterestRates.md) | [xlsx](spreadsheets/05-StochasticInterestRates.xlsx) |
+| 6 | Equities and derivatives | [notes](lessons/06-Equities&Derivatives.md) | [xlsx](spreadsheets/06-Equities&Derivatives.xlsx) |
 | 8 | The arbitrage theorem | | |
 | 9 | One-period binomial model | | |
 | 10 | Multi-period binomial model | | |
