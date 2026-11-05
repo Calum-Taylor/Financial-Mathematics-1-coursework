@@ -44,5 +44,7 @@ Question, then your solution.
 
 ## Spreadsheet
 
-[05-StochasticInterestRates.xlsx](../spreadsheets/05-StochasticInterestRates.xlsx): what it
-does, which cells to change and what to look at.
+[05-StochasticInterestRates.xlsx](../spreadsheets/05-StochasticInterestRates.xlsx): this is the Excel version of the answer to my example. Change any of the inputs in cells C6, C7, C8, C9 of initial investment, number of years, lognormal parameter $\mu$ and lognormal parameter $\sigma^2$ to see how this changes the
+theoretical mean accumulated value of the investment. You will find a simulation of 100 different observations as well as the summary statistics of these
+observations and a manual check for some statistics. This is because stochastic interest rates are by definition random so we can model different
+observations and paths that the final value of the investment took under a lognormal distribution with the specified parameters of $\mu$ and $\sigma^2$.
