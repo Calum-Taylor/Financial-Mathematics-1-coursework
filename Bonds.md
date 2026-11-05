@@ -35,13 +35,13 @@ and the credit premium is 0.5%, 1% and 1.5%.
 
 **Answers:**
 Using the formula above: 
-- When $s_1$ = 3% + 0.5% = 3.5%, $f_{n_1, n_2}$ = 8.79%
-- When $s_1$ = 3% + 1% = 4%, $f_{n_1, n_2}$ = 8.53%
-- When $s_1$ = 3% + 1.5% = 4% + 0.5% = 4.5%, $f_{n_1, n_2}$ = 8.27%
-- When $s_1$ = 4% + 1% = 5%, $f_{n_1, n_2}$ = 8.01%
-- When $s_1$ = 4% + 1.5% = 5% + 0.5% = 5.5%, $f_{n_1, n_2}$ = 7.76%
-- When $s_1$ = 5% + 1% = 6%, $f_{n_1, n_2}$ = 7.50%
-- When $s_1$ = 5% + 1.5% = 6.5%, $f_{n_1, n_2}$ = 7.25%
+- When $s_1$ = 3% + 0.5% = 3.5%, $f_{n_1, n_2}$ $\approx$ 8.79%
+- When $s_1$ = 3% + 1% = 4%, $f_{n_1, n_2}$ $\approx$ 8.53%
+- When $s_1$ = 3% + 1.5% = 4% + 0.5% = 4.5%, $f_{n_1, n_2}$ $\approx$ 8.27%
+- When $s_1$ = 4% + 1% = 5%, $f_{n_1, n_2}$ $\approx$ 8.01%
+- When $s_1$ = 4% + 1.5% = 5% + 0.5% = 5.5%, $f_{n_1, n_2}$ $\approx$ 7.76%
+- When $s_1$ = 5% + 1% = 6%, $f_{n_1, n_2}$ $\approx$ 7.50%
+- When $s_1$ = 5% + 1.5% = 6.5%, $f_{n_1, n_2}$ $\approx$ 7.25%
 
 As the 1 year Gilt rate increases, the fair forward rate decreases; similarly, as the companies credit premium rises so too does the 
 fair forward rate. This is because an increase in  either raise the $s_1$ which raises the denominator  of the fair forward rate formula.
