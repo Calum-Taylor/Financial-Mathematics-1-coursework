@@ -44,5 +44,5 @@ Question, then your solution.
 
 ## Spreadsheet
 
-[01-InterestRates.xlsx](../spreadsheets/01-InterestRates.xlsx): what it
+[05-StochasticInterestRates.xlsx](../spreadsheets/05-StochasticInterestRates.xlsx): what it
 does, which cells to change and what to look at.
