@@ -104,5 +104,5 @@ Substituting the value for β we get P = £365.06 (correct to 2 decimal places)
 
 ## Spreadsheet
 
-[02-PresentValue.xlsx](../spreadsheets/02-PresentValue.xlsx): what it
-does, which cells to change and what to look at.
+[02-PresentValue.xlsx](../spreadsheets/02-PresentValue.xlsx): this is the Excel version of the answer to my example.
+Change the interest rate in cell G4 until NPV(r) = 0 as the interest rate will impact the discount rate and thus the PV of the cash flow stream.
