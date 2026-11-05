@@ -89,7 +89,7 @@ Thus, annualised rate of return is 10%
 (v)Since there is only one payment, the IRR is the same as the equivalent effective interest rate. To check this via the definition, the IRR is the solution of:
 
 $$
-1{,}000 = \frac{1{,}200}{(1+r)^2} \implies r = \sqrt{1.2} - 1 = 0.0954
+1{,}000 = \frac{1{,}200}{(1+r)^2} \implies r = \sqrt{1.2} - 1 \approx 0.0954
 $$
 
 bi) If there is no tax, IRR = 9.54% > 7% = nominal rate so the investment is good as it exceeds the opportunity
