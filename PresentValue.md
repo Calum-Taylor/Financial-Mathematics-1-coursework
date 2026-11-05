@@ -65,10 +65,10 @@ $$
 y^2 - 0.5y -0.75 = 0
 $$
 
-Applying the quadratic formula gives y = -0.651388 or y = 1.15139. r = $\sqrt y$ - 1 and since taking the square root of a negative number produces a complex number,the only valid solution is y = 1.15139. Thus,
+Applying the quadratic formula gives y \approx -0.651388 or y \approx 1.15139. r = $\sqrt y$ - 1 and since taking the square root of a negative number produces a complex number,the only valid solution is y = 1.15139. Thus,
 
 $$
-r = \sqrt 1.15139 -1 = 0.073
+r = \sqrt 1.15139 -1 \approx 0.073
 $$
 
 ### Excercise 2.3 (from Exercise Sheet 2)
