@@ -28,19 +28,19 @@ Calculate the effective rates in each of the scenarios to confirm which gives th
 (a) 
 
 $$
-30000*((1 + 0.053)^{10}) = £50281.12
+30000*((1 + 0.053)^{10}) \approx £50281.12
 $$
 
 (b) 
 
 $$
-30000*((1 + \frac{0.053}{4}))^{4*10} = £50790.88
+30000*((1 + \frac{0.053}{4}))^{4*10} \approx £50790.88
 $$
 
 (c) 
 
 $$
-30000*(e^{0.053(10)}) = £50967.97
+30000*(e^{0.053(10)}) \approx £50967.97
 $$
 
 Interest continuously compounded yields the highest accumulated balance and effective annual rate because interest is being applied at every single
@@ -104,7 +104,7 @@ $$
 This implies
 
 $$
-r = \sqrt{1.14} - 1 = 0.0677
+r = \sqrt{1.14} - 1 \approx 0.0677
 $$
 
 IRR = 6.77% < 7% = nominal rate so the investment would not considered to be a good one.
