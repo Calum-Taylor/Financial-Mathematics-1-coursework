@@ -78,7 +78,7 @@ $$
 
 The interest rate applicable in one year's time for a one year deposit is modelled by the random variable R. You invest P = £1000
 
-(a) Suppose R is the effective rate, so that the deposit grows to (1 + R)P after one year, and take 1 + R to be log-normal, 1 + R ~ log-normal(0.03, 0.01^2)
+(a) Suppose R is the effective rate, so that the deposit grows to (1 + R)P after one year, and take 1 + R to be log-normal, 1 + R ~ log-normal(0.03, $0.01^2$)
 
 - (i) What is the amount of cash your deposit will contain at the end of its term?
 
@@ -92,7 +92,7 @@ The interest rate applicable in one year's time for a one year deposit is modell
 
 **Answers**
 
-(ai) A = 1000(1 + R) where 1 + R ~ log-normal(0.03, 0.01^2). So, $A = 1000e^{Y}$ where Y ~ N(0.03, 0.01^2). Since R is a random variable, the terminal amount is also a random variable and so cannot be reduced to a single value.
+(ai) A = 1000(1 + R) where 1 + R ~ log-normal(0.03, $0.01^2$). So, $A = 1000e^{Y}$ where Y ~ N(0.03, $0.01^2$). Since R is a random variable, the terminal amount is also a random variable and so cannot be reduced to a single value.
 
 (aii) Using the definition of the expectation of a log-normal random variable
 
@@ -100,7 +100,7 @@ $$
 E(A) = E(1000(1 + R)) = 1000E(1 + R) = 1000e^{0.03 + \frac{0.01^2}{2}} \approx £1030.51
 $$
 
-(bi) A = 1000e^{R} where R ~ N(0.03, 0.01^2). By the definition of a log-normal random distribution, $e^{R} ~ log-normal(0.03, 0.01^2)$, meaning $A = 1000e^{R}$ which is exactly the same distribution as the amount in part (a).
+(bi) $A = 1000e^{R}$ where R ~ N(0.03, $0.01^2$). By the definition of a log-normal random distribution, $e^{R} ~ log-normal(0.03, 0.01^2)$, meaning $A = 1000e^{R}$ which is exactly the same distribution as the amount in part (a).
 
 (bii) It will also be the same as in part (a) 
 
