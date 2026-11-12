@@ -54,7 +54,7 @@ less interest that will have to be paid in the future to achieve	the same overal
 
 ## Solved exercises
 
-### Exercise 1.7 (from Exercise Sheet 4)
+### Exercise 4.7 (from Exercise Sheet 4)
 
 Suppose that a broker quotes the price of unit zero-coupon bonds, with maturity times of (0.5, 1, 1.5, 2) years, to be respectively (0.95, 0.92, 0.86, 0.84). What are these numbers also called? Calculate the no-arbitrage price of a 2-year bond with face-value £500000, semi-annual coupons at rate 4% per annum, and no redemption payment.
 
@@ -64,7 +64,7 @@ These numbers are also called the discount factors or zero coupon bond prices; w
 
 Over the course of the 2 years, we will receive 4 semi-annual coupon payments worth £500000($\frac{4%}{2}$) = £10000 at times t = 0.5, 1, 1.5, 2 years. Hence, no arbitrage price, P, = £10000(0.95 + 0.92 + 0.86 + 0.84) = £35700
 
-### Exercise 1.11 (from Exercise Sheet 4)
+### Exercise 4.11 (from Exercise Sheet 4)
 
 Show that is a bank offers a FRA (for both loans and deposits) between times $n_1$ and $n_2$ at a forward rate f satisfying
 
