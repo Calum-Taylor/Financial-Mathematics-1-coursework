@@ -83,7 +83,7 @@ At time t = $n_1$, the loan repayment is $\frac{£P}{(1+s_{n_1})^$n_1$} \times (
 At time t = $n_2$, the deposit will have grown to $\frac{£P}{(1+s_{n_1})^$n_1$} \times (1+s_{n_2})^$n_2$$. The FRA loan repayment is $£P(1 + f)^{$n_2$ - $n_1$}. Consequently, the total net profit is 
 
 $$
-P(\frac{(1+s_{n_2})^{n_2]}{(1+s_{n_1})^{n_1} - (1 + f)^{n_2 - n_1}) > 0
+P(\frac{(1+s_{n_2})^{n_2}}{(1+s_{n_1})^{n_1}} - (1 + f)^{n_2 - n_1}) > 0
 $$
 
 which is strictly positive by our assumption, thus creating an arbitrage opportunity.
