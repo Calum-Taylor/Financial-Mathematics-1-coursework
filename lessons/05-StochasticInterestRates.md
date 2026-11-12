@@ -100,7 +100,7 @@ $$
 E(A) = E(1000(1 + R)) = 1000E(1 + R) = 1000e^{0.03 + \frac{0.01^2}{2}} \approx £1030.51
 $$
 
-(bi) $A = 1000e^{R}$ where R ~ N(0.03, $0.01^2$). By the definition of a log-normal random distribution, $e^{R} ~ log-normal(0.03, 0.01^2)$, meaning $A = 1000e^{R}$ which is exactly the same distribution as the amount in part (a).
+(bi) $A = 1000e^{R}$ where R ~ N(0.03, $0.01^2$). By the definition of a log-normal random distribution, $e^{R}$ ~ log-normal(0.03, $0.01^2$), meaning $A = 1000e^{R}$ which is exactly the same distribution as the amount in part (a).
 
 (bii) It will also be the same as in part (a) 
 
