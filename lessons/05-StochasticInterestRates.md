@@ -41,15 +41,15 @@ $$
 ### Exercise 1.2 (from Exercise Sheet 5)
 
 The interest rate applicable in one year's time for a one year deposit is modelled by the random variable 
-and treat is as a continuously compounded annual rate, so that over one year a deposit grows by the factor e^{R}.
+and treat is as a continuously compounded annual rate, so that over one year a deposit grows by the factor $e^{R}$.
 
 (a) Find the expected rate E(R)
 
-(b) Find e^{E(R)}, the growth factor of your deposit using the expected rate.
+(b) Find $e^{E(R)}$, the growth factor of your deposit using the expected rate.
 
-(c) Find E(e^{R}), the expected growth factor.
+(c) Find $E(e^{R})$, the expected growth factor.
 
-(d) Should E(e^{R}) not be the same as e^{E(R)}?
+(d) Should $E(e^{R})$ not be the same as $e^{E(R)}$?
 
 **Answers**
 
