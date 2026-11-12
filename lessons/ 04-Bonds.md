@@ -76,11 +76,35 @@ then there is an arbitrage opportunity.
 
 **Answer**
 
-At time t = 0, the company signs a FRA with the bank to borrow an amount, say £P, between $n_1$ and $n_2$ at the forward rate f. So, they will borrow $\frac{£P}{(1+s_{n_1})^$n_1$}$ for term $n_1$ and deposit $\frac{£P}{(1+s_{n_1})^$n_1$}$ for term $n_2$.
+At time t = 0, the company signs a FRA with the bank to borrow an amount, say £P, between $n_1$ and $n_2$ at the forward rate f. So, they will borrow 
 
-At time t = $n_1$, the loan repayment is $\frac{£P}{(1+s_{n_1})^$n_1$} \times (1+s_{n_1})^$n_1$$ = £P. So, to pay this off they will draw down the FRA loan of £1000. Therefore, the net cash flow = 0.
+$$
+\frac{£P}{(1+s_{n_1})^{n_1}}
+$$
 
-At time t = $n_2$, the deposit will have grown to $\frac{£P}{(1+s_{n_1})^$n_1$} \times (1+s_{n_2})^$n_2$$. The FRA loan repayment is $£P(1 + f)^{$n_2$ - $n_1$}. Consequently, the total net profit is 
+for term $n_1$ and deposit 
+
+$$
+\frac{£P}{(1+s_{n_1})^{n_1}}
+$$
+
+for term $n_2$.
+
+At time t = $n_1$, the loan repayment is 
+
+$$
+\frac{£P}{(1+s_{n_1})^{n_1}} \times (1+s_{n_1})^{n_1} = £P
+$$
+
+So, to pay this off they will draw down the FRA loan of £1000. Therefore, the net cash flow = 0.
+
+At time t = $n_2$, the deposit will have grown to 
+
+$$
+\frac{£P}{(1+s_{n_1})^{n_1}} \times (1+s_{n_2})^{n_2}
+$$
+
+The FRA loan repayment is $£P(1 + f)^{$n_2$ - $n_1$}. Consequently, the total net profit is 
 
 $$
 P(\frac{(1+s_{n_2})^{n_2}}{(1+s_{n_1})^{n_1}} - (1 + f)^{n_2 - n_1}) > 0
