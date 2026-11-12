@@ -53,15 +53,25 @@ and treat is as a continuously compounded annual rate, so that over one year a d
 
 **Answers**
 
-(a) E(R) = 0.3(0.003) + 0.7(0.0035) = 0.0335 = 3.35%
+(a) 
+$$
+E(R) = 0.3(0.003) + 0.7(0.0035) = 0.0335 = 3.35%
+$$
 
-(b) e^{E(R)} = e^{0.0335} = 1.034067
+(b) 
+$$
+e^{E(R)} = e^{0.0335} = 1.034067
+$$
 
-(c) E(e^{R}) = 0.3e^{0.03} + 0.7e^{0.035} = 1.034070
+(c) 
+$$
+E(e^{R}) = 0.3e^{0.03} + 0.7e^{0.035} = 1.034070
+$$
 
 (d) No because e is not a linear function. For an arbitrary linear function g(X), it is true that E(g(X)) = g(E(X))
 
 
+### Exercise 1.  (from Exercise Sheet 5)
 
 
 ## Spreadsheet
