@@ -104,7 +104,13 @@ $$
 \frac{£P}{(1+s_{n_1})^{n_1}} \times (1+s_{n_2})^{n_2}
 $$
 
-The FRA loan repayment is $£P(1 + f)^{$n_2$ - $n_1$}. Consequently, the total net profit is 
+The FRA loan repayment is 
+
+$$
+£P(1 + f)^{n_2 - n_1}
+$$
+
+Consequently, the total net profit is 
 
 $$
 P(\frac{(1+s_{n_2})^{n_2}}{(1+s_{n_1})^{n_1}} - (1 + f)^{n_2 - n_1}) > 0
