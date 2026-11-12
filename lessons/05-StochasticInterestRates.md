@@ -84,7 +84,7 @@ The interest rate applicable in one year's time for a one year deposit is modell
 
 - (ii) What is the expected amount of cash you will have at the end of the deposit term?
 
-(b) Suppose instead R is the continuously compounded rate, so that the deposit grows to Pe^{R} after one year, and take R to be normal, R ~ N(0.03, 0.01^2)
+(b) Suppose instead R is the continuously compounded rate, so that the deposit grows to $Pe^{R}$ after one year, and take R to be normal, R ~ N(0.03, $0.01^2$)
 
 - (i) What is the amount of cash your deposit will contain at the end of its term?
 
