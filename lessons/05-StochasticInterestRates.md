@@ -38,9 +38,31 @@ $$
 
 ## Solved exercises
 
-### Exercise 1.x (from Exercise Sheet 1)
+### Exercise 1.2 (from Exercise Sheet 5)
 
-Question, then your solution.
+The interest rate applicable in one year's time for a one year deposit is modelled by the random variable 
+and treat is as a continuously compounded annual rate, so that over one year a deposit grows by the factor e^{R}.
+
+(a) Find the expected rate E(R)
+
+(b) Find e^{E(R)}, the growth factor of your deposit using the expected rate.
+
+(c) Find E(e^{R}), the expected growth factor.
+
+(d) Should E(e^{R}) not be the same as e^{E(R)}?
+
+**Answers**
+
+(a) E(R) = 0.3(0.003) + 0.7(0.0035) = 0.0335 = 3.35%
+
+(b) e^{E(R)} = e^{0.0335} = 1.034067
+
+(c) E(e^{R}) = 0.3e^{0.03} + 0.7e^{0.035} = 1.034070
+
+(d) No because e is not a linear function. For an arbitrary linear function g(X), it is true that E(g(X)) = g(E(X))
+
+
+
 
 ## Spreadsheet
 
