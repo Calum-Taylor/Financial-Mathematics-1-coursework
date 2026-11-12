@@ -21,9 +21,19 @@ notes), worked step by step.
 
 ## Solved exercises
 
-### Exercise 1.x (from Exercise Sheet 1)
+### Exercise 6. (from Exercise Sheet 6)
 
-Question, then your solution.
+
+
+**Answer**
+
+### Exercise 6. (from Exercise Sheet 6)
+
+
+
+**Answer**
+
+
 
 ## Spreadsheet
 
