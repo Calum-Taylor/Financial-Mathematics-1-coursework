@@ -54,9 +54,39 @@ less interest that will have to be paid in the future to achieve	the same overal
 
 ## Solved exercises
 
-### Exercise 1.x (from Exercise Sheet 1)
+### Exercise 1.7 (from Exercise Sheet 4)
 
-Question, then your solution.
+Suppose that a broker quotes the price of unit zero-coupon bonds, with maturity times of (0.5, 1, 1.5, 2) years, to be respectively (0.95, 0.92, 0.86, 0.84). What are these numbers also called? Calculate the no-arbitrage price of a 2-year bond with face-value £500000, semi-annual coupons at rate 4% per annum, and no redemption payment.
+
+**Answer**
+
+These numbers are also called the discount factors or zero coupon bond prices; we see that as the maturity time increases, so too does the discount factor. 
+
+Over the course of the 2 years, we will receive 4 semi-annual coupon payments worth £500000($\frac{4%}{2}$) = £10000 at times t = 0.5, 1, 1.5, 2 years. Hence, no arbitrage price, P, = £10000(0.95 + 0.92 + 0.86 + 0.84) = £35700
+
+### Exercise 1.11 (from Exercise Sheet 4)
+
+Show that is a bank offers a FRA (for both loans and deposits) between times $n_1$ and $n_2$ at a forward rate f satisfying
+
+$$
+(1 + f)^{$n_2$ - $n_1$} < \frac{(1+s_{n_2})^$n_2$}{(1+s_{n_1})^$n_1$}
+$$
+
+then there is an arbitrage opportunity.
+
+**Answer**
+
+At time t = 0, the company signs a FRA with the bank to borrow an amount, say £P, between $n_1$ and $n_2$ at the forward rate f. So, they will borrow $\frac{£P}{(1+s_{n_1})^$n_1$}$ for term $n_1$ and deposit $\frac{£P}{(1+s_{n_1})^$n_1$}$ for term $n_2$.
+
+At time t = $n_1$, the loan repayment is $\frac{£P}{(1+s_{n_1})^$n_1$} \times (1+s_{n_1})^$n_1$$ = £P. So, to pay this off they will draw down the FRA loan of £1000. Therefore, the net cash flow = 0.
+
+At time t = $n_2$, the deposit will have grown to $\frac{£P}{(1+s_{n_1})^$n_1$} \times (1+s_{n_2})^$n_2$$. The FRA loan repayment is $£P(1 + f)^{$n_2$ - $n_1$}. Consequently, the total net profit is 
+
+$$
+P(\frac{(1+s_{n_2})^$n_2$}{(1+s_{n_1})^$n_1$} - (1 + f)^{$n_2$ - $n_1$}) > 0
+$$
+
+which is strictly positive by our assumption, thus creating an arbitrage opportunity.
 
 ## Spreadsheet
 
