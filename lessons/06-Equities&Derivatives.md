@@ -16,8 +16,8 @@ The **forward price**, F, at t=T satisfies F = $\frac{S_0}{D(T)}$ where D(T) is 
 
 ## My example
 
-A situation you made up (your own numbers, not the ones in the lecture
-notes), worked step by step.
+On November 12 2026, Visa's stock closed at about $420. Suppose an investor decides to adopt a bull call spread whereby they buy a call
+option with a strike price of 
 
 ## Solved exercises
 
