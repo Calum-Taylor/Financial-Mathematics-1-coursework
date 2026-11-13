@@ -30,6 +30,13 @@ max($s_T$ - 14.50, 0) - max($s_T$ - 17, 0) - 0.40. So, substituting the values f
 | Share price at expiry (£) | Total payoff (£) | Total profit (£) |
 | ---: | ---: | ---: |
 | 12 | 0 | -0.40 |
+| 13 | 0 | -0.40 |
+| 14 | 0 | -0.40 |
+| 15 | 0.50 | 0.10 |
+| 16 | 1.50 | 1.10 |
+| 17 | 2.50 | 2.10 |
+| 18 | 2.50 | 2.10 |
+| 19 | 2.50 | 2.10 |
 
 ## Solved exercises
 
