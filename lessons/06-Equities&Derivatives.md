@@ -70,6 +70,7 @@ title "Long European call option"
 x-axis "Share price (£)" [20, 40, 60, 80, 100, 120]
 y-axis "Payoff (£)" 0--> 160
 line [160, 120, 80, 40, 0, 0]
+'''
 
 
 ## Spreadsheet
