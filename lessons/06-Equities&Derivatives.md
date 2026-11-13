@@ -16,8 +16,20 @@ The **forward price**, F, at t=T satisfies F = $\frac{S_0}{D(T)}$ where D(T) is 
 
 ## My example
 
-On November 12 2026, Visa's stock closed at about $420. Suppose an investor decides to adopt a bull call spread whereby they buy a call
-option with a strike price of 
+On November 12 2026, Rolls Royce's stock closed at about £13.70. Suppose an investor decides to adopt a bull call spread whereby they buy 1 call
+option with a strike price of £14.50 paying a premium of £1 and sells 1 call option with a strike price of £17 receiving a premium of £0.60.
+Assume Rolls Royce pays no dividends and the 2 call options have the same expiry date. Calculate the total profit at expiry based on when the share
+price is between £12 and £19 for every £1 increment in this range.
+
+**Answer**
+
+The net premium the investor pays to from this strategy is £1 - £0.60 = £0.40. The payoff from the long call is max($s_T$ - 14.50, 0) while the payoff
+from the short call is -max($s_T$ - 17, 0). Hence, total payoff = max($s_T$ - 14.50, 0) - max($s_T$ - 17, 0). Thus, total profit = total payoff -0.40 = 
+max($s_T$ - 14.50, 0) - max($s_T$ - 17, 0) - 0.40. So, substituting the values for $s_T$ we get 
+
+| Share price at expiry (£) | Total payoff (£) | Total profit (£) |
+| ---: | ---: | ---: |
+| 12 | 0 | -0.40 |
 
 ## Solved exercises
 
