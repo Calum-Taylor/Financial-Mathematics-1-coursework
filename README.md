@@ -24,4 +24,4 @@ I asked ChatGPT the following questions:
 - When I type e^(rt), for example, how do I get this to format as a power, i.e. $e^{rt}$, in GitHub and Excel?
 - To get the mean mu of a lognormal distribution I typed \mu but I didn't get the symbol for mu. How do I get the symbol for this GitHub and Excel?
 - How do I get summary statistics for different observations in Excel?
-
+- How do I plot a table with lines going through each row in GitHub?
