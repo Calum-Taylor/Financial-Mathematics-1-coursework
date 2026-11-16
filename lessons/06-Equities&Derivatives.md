@@ -96,13 +96,13 @@ $$
 Since the company pays the bank £10mnK, to break even with no risk the bank should charge the company loan repayment = £10mnK. Equating the 2 we get 
 
 $$
-£10mnK = £$S_0$10mn$e^{($r_£$ - $r_€$)T}
+£10mnK = £S_0*10mne^{(r_£ - r_€)T}
 $$
 
 Dividing through by 10mn to solve for K we get 
 
 $$
-K = $F_T$ = $S_0$e^{($r_£$ - $r_€$)T}
+K = F_T = S_0*e^{(r_£ - r_€)T}
 $$
 
 ```mermaid
