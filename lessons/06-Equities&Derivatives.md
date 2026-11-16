@@ -68,7 +68,7 @@ $$
 r = \frac{1}{-10}ln(\frac{14}{30}) \approx 0.076214
 $$
 
-Thus, r $\approx$ 7.6214%10
+Thus, r $\approx$ 7.6214%
 
 ### Exercise 6.6 (from Exercise Sheet 6)
 
@@ -89,19 +89,19 @@ loan of £10mn$S_0$e^{-$r_€$T}$ from a UK bank where $S_t$ denotes the EURGBP 
 At t = T, the deposit will have grown to €10mn and the debt on the loan will be
 
 $$
-£S_{0}10mne^{-r_{€}*T}e^{r_{£}*T}$ = £S_010mne^{(r_{£} - r_{€})T}
+£S_{0}10mne^{-r_{€}*T}e^{r_{£}*T} = £S_010mne^{(r_{£} - r_{€})T}
 $$
 
 Since the company pays the bank £10mnK, to break even with no risk the bank should charge the company loan repayment = £10mnK. Equating the 2 we get 
 
 $$
-£10mnK = £S_0*10mne^{(r_£ - r_€)T}
+£10mnK = £S_{0}10mne^{(r_£ - r_€)T}
 $$
 
 Dividing through by 10mn to solve for K we get 
 
 $$
-K = F_T = S_0*e^{(r_£ - r_€)T}
+K = F_T = S_{0}e^{(r_£ - r_€)T}
 $$
 
 ```mermaid
