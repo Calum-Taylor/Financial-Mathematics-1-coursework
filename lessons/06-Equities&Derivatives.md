@@ -15,8 +15,7 @@ A **European option** can only be exercised at expiry whereas an **American opti
 Let $S_t$ represent the price at time t of an asset. The **forward payoff function** satisfies f(x) = S - K     
 The **forward price**, F, at t=T satisfies F = $\frac{S_0}{D(T)}$ where D(T) is the discount factor to time t. 
 
-The payoff from a call option satisfies ($S_t$ - K)^+ and the payoff from a put option satisfies (K - $S_t$)^+ where the function x^+ = x if x \geq 0 and 0 
-othwerise.
+The payoff from a call option satisfies ($S_t$ - K)^{+} and the payoff from a put option satisfies (K - $S_t$)^{+} where the function x^{+} = x if x $\geq$ 0 and 0 othwerise.
 
 **Call put parity** enables us to connect the price of a call option to the price of a put option. Let C = call option price and P = put option price. Then,
 C - P = $S_0$ - KD(T) where D(T) is the discount factor for time T. 
