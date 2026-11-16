@@ -1,4 +1,4 @@
-# 6. Equities and Derivatives
+ # 6. Equities and Derivatives
 
 [Back to contents](../README.md)
 
@@ -68,7 +68,7 @@ $$
 r = \frac{1}{-10}ln(\frac{14}{30}) \approx 0.076214
 $$
 
-Thus, r \approx 7.6214%
+Thus, r $\approx$ 7.6214%
 
 ### Exercise 6. (from Exercise Sheet 6)
 
