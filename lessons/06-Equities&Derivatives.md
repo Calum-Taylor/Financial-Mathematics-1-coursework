@@ -89,7 +89,7 @@ loan of £10mn$S_0$e^{-$r_€$T}$ from a UK bank where $S_t$ denotes the EURGBP 
 At t = T, the deposit will have grown to €10mn and the debt on the loan will be
 
 $$
-£S_0*10mne^{-r_€*T}e^{r_£*T}$ = £S_0*10mn$e^{(r_£ - r_€)T}
+£S_010mne^{-r_€*T}e^{r_£*T}$ = £S_010mne^{(r_£ - r_€)T}
 $$
 
 Since the company pays the bank £10mnK, to break even with no risk the bank should charge the company loan repayment = £10mnK. Equating the 2 we get 
