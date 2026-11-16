@@ -83,14 +83,13 @@ the bank should charge to make the transaction fair and risk free.
 (i) The company is worried that EURGBP increases as this would mean the sterling has depreciated in value. Thus, imports are now more expensive into the UK from
 countries which use the Euro as their currency since more sterling is needed to buy the same amount of Euros as before the EURGBP increase.
 
-(ii) At t = 0, the bank knows they will need to pay the company $\euro$ in 6 months time so should place €10mnD(T) = €10mn$e^{-$r_€$T}$ in a Euro denominated bank account
-which earns interest at a rate of $r_€$, where D(T) is the discount factor up until time T = 6 months. To fund this operation, the bank should take out a loan of 
-£10mn$S_0$e^{-$r_€$T}$ from a UK bank where $S_t$ denotes the EURGBP exchange rate at time t. 
+(ii) At t = 0, the bank knows they will need to pay the company €10mn in 6 months time so should place €10mnD(T) = €10mn$e^{-$r_€$T}$ in a Euro denominated bank account which earns interest at a rate of $r_€$, where D(T) is the discount factor up until time T = 6 months. To fund this operation, the bank should take out a
+loan of £10mn$S_0$e^{-$r_€$T}$ from a UK bank where $S_t$ denotes the EURGBP exchange rate at time t. 
 
 At t = T, the deposit will have grown to €10mn and the debt on the loan will be
 
 $$
-£S_010mne^{-$r_€$T}e^{$r_£$T}$ = £$S_0$10mn$e^{($r_£$ - $r_€$)T}
+£S_0*10mne^{-r_€*T}e^{r_£*T}$ = £S_0*10mn$e^{(r_£ - r_€)T}
 $$
 
 Since the company pays the bank £10mnK, to break even with no risk the bank should charge the company loan repayment = £10mnK. Equating the 2 we get 
