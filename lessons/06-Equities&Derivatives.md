@@ -68,13 +68,42 @@ $$
 r = \frac{1}{-10}ln(\frac{14}{30}) \approx 0.076214
 $$
 
-Thus, r $\approx$ 7.6214%
+Thus, r $\approx$ 7.6214%10
 
-### Exercise 6. (from Exercise Sheet 6)
+### Exercise 6.6 (from Exercise Sheet 6)
 
-
+Assume the continuously compounded euro rate is $r_€$ and the sterling one is $r_£$. Company X is based in the UK and plans to purchase goods from Europe
+worth €10mn in 6 months time. They are concerned the EURGBP exchange rate might change and the cost of the purchase might rise.
+- (i)If EURGBP denotes the value of GBP of 1 Euro, what worries the company, that EURGBP increases or decreases?
+- (ii) Suppose the company calls a bank to sign a forward rate agreement (FRA) to purchase €10mn in 6 months time. Find the fair forward rate, K = $F_T$, that
+the bank should charge to make the transaction fair and risk free. 
 
 **Answer**
+
+(i) The company is worried that EURGBP increases as this would mean the sterling has depreciated in value. Thus, imports are now more expensive into the UK from
+countries which use the Euro as their currency since more sterling is needed to buy the same amount of Euros as before the EURGBP increase.
+
+(ii) At t = 0, the bank knows they will need to pay the company $\euro$ in 6 months time so should place €10mnD(T) = €10mn$e^{-$r_€$T}$ in a Euro denominated bank account
+which earns interest at a rate of $r_€$, where D(T) is the discount factor up until time T = 6 months. To fund this operation, the bank should take out a loan of 
+£10mn$S_0$e^{-$r_€$T}$ from a UK bank where $S_t$ denotes the EURGBP exchange rate at time t. 
+
+At t = T, the deposit will have grown to €10mn and the debt on the loan will be
+
+$$
+£S_010mne^{-$r_€$T}e^{$r_£$T}$ = £$S_0$10mn$e^{($r_£$ - $r_€$)T}
+$$
+
+Since the company pays the bank £10mnK, to break even with no risk the bank should charge the company loan repayment = £10mnK. Equating the 2 we get 
+
+$$
+£10mnK = £$S_0$10mn$e^{($r_£$ - $r_€$)T}
+$$
+
+Dividing through by 10mn to solve for K we get 
+
+$$
+K = $F_T$ = $S_0$e^{($r_£$ - $r_€$)T}
+$$
 
 ```mermaid
 xychart-beta
