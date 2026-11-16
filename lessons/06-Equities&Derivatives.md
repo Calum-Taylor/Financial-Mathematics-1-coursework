@@ -65,7 +65,7 @@ e^{-10r} = \frac{14}{30}
 $$
 
 $$
-r = \frac{1}{-10}ln(\frac{14}{30}) \approx 0.076214 = 7.6214 \%
+r = \frac{1}{-10}ln(\frac{14}{30}) \approx 0.076214 = 7.6214\%
 $$
 
 ### Exercise 6. (from Exercise Sheet 6)
