@@ -25,7 +25,7 @@ It is said that a sequence of cash flows **immunised to order 0** if NPV(r) = 0,
 A sequence of cash flows is **immunised to order 1** if NPV(r) = 0 and NPV’(r) = 0; this implies that cash flows must be immunised
 to order 0, we are delta neutral and the duration of assets and liabilities is matched.  
 
-A sequence of cash flows is **Reddington immune** if NPV(r) = 0, NPV’(r) = 0 and NPV’’(r) \geq 0; this implies that cash flows must be
+A sequence of cash flows is **Reddington immune** if NPV(r) = 0, NPV’(r) = 0 and $NPV’’(r) \geq 0$; this implies that cash flows must be
 immunised to order 1, we are long gamma and the convexity of assets is greater than the convexity of liabilities. 
 Hence, Reddington immunisation means that if interest rates move up or down a bit, NPV(r) increases which helps to reduce market risk. 
 
