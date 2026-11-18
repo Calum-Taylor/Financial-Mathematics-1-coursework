@@ -115,19 +115,19 @@ of these bonds that does Redington immunise them.
 **Answer:** 
 
 $$
-NPV(r) = - \frac{20000}{(1.1)^3.5} + \frac{P}{(1.1)^4} - \frac{18000}{(1.1)^6} + \frac{Q}{(1.1)^7}
+NPV(r) = - \frac{20000}{(1.1)^{3.5}} + \frac{P}{(1.1)^4} - \frac{18000}{(1.1)^6} + \frac{Q}{(1.1)^7}
 $$
 
 
 $$
-NPV'(r) = \frac{70000}{(1.1)^4.5} - \frac{4P}{(1.1)^5} + \frac{6*18000}{(1.1)^7} - \frac{7Q}{(1.1)^8}
+NPV'(r) = \frac{70000}{(1.1)^{4.5}} - \frac{4P}{(1.1)^5} + \frac{6*18000}{(1.1)^7} - \frac{7Q}{(1.1)^8}
 $$
 
 Setting NPV(10%) = 0 and NPV'(10%) = 0 we get a pair of simultaneous equations which we can solve to get
 P $\approx$ 29, 400 and Q $\approx$ 8, 550
 
 $$
-NPV''(r) = - \frac{4.5 * 70000}{(1.1)^5.5} + \frac{20P}{(1.1)^6} - \frac{42 * 18000}{(1.1)^8} + \frac{56Q}{(1.1)^9}
+NPV''(r) = - \frac{4.5 * 70000}{(1.1)^{5.5}} + \frac{20P}{(1.1)^6} - \frac{42 * 18000}{(1.1)^8} + \frac{56Q}{(1.1)^9}
 $$
 
 Substitutitng the values for P and Q we get NPV''(10%) $\approx$ -4198.923397 < 0 
