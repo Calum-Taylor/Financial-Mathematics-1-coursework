@@ -70,7 +70,7 @@ Answers:
 (a) 
 
 $$ 
-PV = 1{,}000e^{-0.04(2)} + 500e^{-0.04(3)} \approx £1{,}370
+PV = 1000e^{-0.04(2)} + 500e^{-0.04(3)} \approx £1{,}370
 $$
 
 It can be shown that the duration and effective duration of interest continuously compounded are equal to 
@@ -83,26 +83,26 @@ $$
 The convexity is:
 
 $$
-c = \frac{(2^2) * 1000 * e^{-0.04(2)} + (3^2) * 500 * e^{-0.04(3)}}{PV} \approx 5.62
+c = \frac{(2^2)(1000)e^{-0.04(2)} + (3^2)(500)e^{-0.04(3)}}{PV} \approx 5.62
 $$
 
 
 (b) 
 
 $$
-PV = 1{,}500e^{-0.04(3)} + 1{,}500e^{-0.04(4)} \approx £2{,}610
+PV = 1500e^{-0.04(3)} + 1500e^{-0.04(4)} \approx £2610
 $$
 
 The duration and convexity are both equal to:
 
 $$
-\tau = \nu = \frac{3 * 1{,}500 * e^{-0.04(3)} + 4 * 1{,}500 * e^{-0.04(4)}}{PV} \approx 3.49 years
+\tau = \nu = \frac{3(1500)e^{-0.04(3)} + 4(1500)e^{-0.04(4)}}{PV} \approx 3.49 years
 $$
 
 The convexity is:
 
 $$
-c = \frac{(3^2) * 1{,}500 * e^{-0.04(3)} + (4^2) * 1{,}500 * e^{-0.04(4)}}{PV} \approx 5.62
+c = \frac{(3^2)(1500)e^{-0.04(3)} + (4^2)(1500)e^{-0.04(4)}}{PV} \approx 5.62
 $$
 
 
@@ -115,19 +115,19 @@ of these bonds that does Redington immunise them.
 **Answer:** 
 
 $$
-NPV(r) = - \frac{20{,}000}{(1.1)^3.5} + \frac{P}{(1.1)^4} - \frac{18{,}000}{(1.1)^6} + \frac{Q}{(1.1)^7}
+NPV(r) = - \frac{20000}{(1.1)^3.5} + \frac{P}{(1.1)^4} - \frac{18000}{(1.1)^6} + \frac{Q}{(1.1)^7}
 $$
 
 
 $$
-NPV'(r) = \frac{70{,}000}{(1.1)^4.5} - \frac{4P}{(1.1)^5} + \frac{6*18{,}000}{(1.1)^7} - \frac{7Q}{(1.1)^8}
+NPV'(r) = \frac{70000}{(1.1)^4.5} - \frac{4P}{(1.1)^5} + \frac{6*18000}{(1.1)^7} - \frac{7Q}{(1.1)^8}
 $$
 
 Setting NPV(10%) = 0 and NPV'(10%) = 0 we get a pair of simultaneous equations which we can solve to get
 P $\approx$ 29, 400 and Q $\approx$ 8, 550
 
 $$
-NPV''(r) = - \frac{4.5 * 70{,}000}{(1.1)^5.5} + \frac{20P}{(1.1)^6} - \frac{42 * 18{,}000}{(1.1)^8} + \frac{56Q}{(1.1)^9}
+NPV''(r) = - \frac{4.5 * 70000}{(1.1)^5.5} + \frac{20P}{(1.1)^6} - \frac{42 * 18000}{(1.1)^8} + \frac{56Q}{(1.1)^9}
 $$
 
 Substitutitng the values for P and Q we get NPV''(10%) $\approx$ -4198.923397 < 0 
