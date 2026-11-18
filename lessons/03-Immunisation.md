@@ -70,7 +70,7 @@ Answers:
 (a) 
 
 $$ 
-PV = 1{,}000*e^{-0.04(2)} + 500*e^{-0.04(3)} \approx £1{,}370
+PV = 1{,}000e^{-0.04(2)} + 500e^{-0.04(3)} \approx £1{,}370
 $$
 
 It can be shown that the duration and effective duration of interest continuously compounded are equal to 
