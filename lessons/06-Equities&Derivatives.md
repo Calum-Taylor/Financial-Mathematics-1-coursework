@@ -12,7 +12,7 @@ This is different to an **option contract** which gives the buyer the right but 
 
 A **European option** can only be exercised at expiry whereas an **American option** can be exercised at anytime up to an including expiry.
 
-Let $S_t$ represent the price at time t of an asset. The **forward payoff function** satisfies f(x) = S - K     
+Let $S_t$ represent the price at time t of an asset. The **forward payoff function** satisfies f(x) = N($S_t$ - K)     
 The **forward price**, F, at t=T satisfies F = $\frac{S_0}{D(T)}$ where D(T) is the discount factor to time t. 
 
 The payoff from a call option satisfies $(S_t - K)^{+}$ and the payoff from a put option satisfies $(K - S_t)^{+}$ where the function x^{+} = x if $x \geq 0$ and 0 othwerise.
