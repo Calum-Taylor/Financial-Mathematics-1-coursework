@@ -51,13 +51,13 @@ gives payments of £500 at the end of the second year and £750 at the end of th
 Answer: the IRR is the unique solution r which exists between -1 and infintiy such that
 
 $$
-1{,}000 = \frac{500}{(1+r)^2} + \frac{750}{(1+r)^4}
+1000 = \frac{500}{(1+r)^2} + \frac{750}{(1+r)^4}
 $$
 
 Let $y = (1+r)^{2}$ then 
 
 $$
-1{,}000 = \frac{500}{y^1} + \frac{750}{y^2}
+1000 = \frac{500}{y^1} + \frac{750}{y^2}
 $$
 
 
@@ -84,17 +84,17 @@ $$
 Let P = PV of instalments. Hence, we need
 
 $$
-Pβ + P(β^{2}) + ... + P(β^{36}) = 12{,}000
+Pβ + P(β^{2}) + ... + P(β^{36}) = 12000
 $$
 
 
 $$
-P*\frac{β - β^{37}}{1 - β} = 12{,}000
+P*\frac{β - β^{37}}{1 - β} = 12000
 $$
 
 
 $$
-P = \frac{12{,}000 * (1 - β)}{β - β^{37}}
+P = \frac{12000 * (1 - β)}{β - β^{37}}
 $$
 
 Substituting the value for β we get P = £365.06 (correct to 2 decimal places)
