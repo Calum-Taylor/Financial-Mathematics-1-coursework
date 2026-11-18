@@ -94,7 +94,7 @@ $$
 
 
 $$
-P = \frac{12000 * (1 - β)}{β - β^{37}}
+P = \frac{12000(1 - β)}{β - β^{37}}
 $$
 
 Substituting the value for β we get P = £365.06 (correct to 2 decimal places)
