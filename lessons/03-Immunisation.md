@@ -77,13 +77,13 @@ It can be shown that the duration and effective duration of interest continuousl
 each other, though we will not prove this here. Hence,
 
 $$
-\tau = \nu = \frac{2 * 1{,}000 * e^{0.04(2)} + 3 * 500 * e^{-0.04(3)}}{PV} \approx 2.32 years
+\tau = \nu = \frac{2(1000)e^{0.04(2)} + 3(500)e^{-0.04(3)}}{PV} \approx 2.32 years
 $$
 
 The convexity is:
 
 $$
-c = \frac{(2^2) * 1{,}000 * e^{-0.04(2)} + (3^2) * 500 * e^{-0.04(3)}}{PV} \approx 5.62
+c = \frac{(2^2) * 1000 * e^{-0.04(2)} + (3^2) * 500 * e^{-0.04(3)}}{PV} \approx 5.62
 $$
 
 
